@@ -1,201 +1,125 @@
 # 4.2 Phân mục nhập liệu
 
-#### a) **Hạch toán thu, chi tiền:**
-
-Quản lý tiền mặt được thực hiện thông qua module Kế toán tiền mặt. Tất cả các nghiệp vụ liện quan đến tiền mặt trong phạm vi doanh nghiệp đều được module CA tạo lập, lưu trữ và xử lý. Việc tạo lập, lưu trữ và xử lý này có thể được thực hiện bằng cách:
-
-
-
-![](<../.gitbook/assets/0 (94).png>)
-
-![](<../.gitbook/assets/1 (46).png>)
-
-**Phần Tổng hợp:**
-
-**+ Số lô.:** Để trống, chương trình tự phát sinh
-
-**+ Kỳ kế toán:**(ví dụ hóa đơn của tháng 8 năm 2014: 08-2014) Số tháng phát sinh
-
-**+ Số phiếu chi:** Nhập số phiếu ch&#x69;**.**
-
-**+ Ngày lập phiếu:** Nhập ngày phát sinh
-
-**+ Tài khoản tiền:** Nhấn F3 để chọn tài khoản tiền
-
-**+ Loại tiền, Tỷ giá quy đổi:** Tùy theo loại tiền sẽ có tỷ giá đối với VND
-
-**+ Tạm ứng trước:** Nếu khoản tiền chi ra này liên quan đến khoản tạm ứng cho nhà cung cấp có gốc ngoại tệ thì click chọn vào đây. Nếu không có thì để trống. Mục đích là có thể link qua phần kế toán phải trả để khi hạch toán kế toán phải trả cho các đơn hàng có ứng trước phần mềm giúp lấy tỷ giá đúng với phiếu tạm ứng này.
-
-**+ Lý do chi(VN-EN):** Nhập lý do chi
-
-**+ Người nhận tiền:** Nhập tên người nhận
-
-**+ Địa chỉ:** Nhập địa chỉ người nhận
-
-**Phần chi tiết:**
-
-**+ Tài khoản:** Nhấn F3 để chọn tài khoản tương ứng hoặc nhập tài khoản
-
-**+ Diễn giải(VN-EN):** Sẽ được link từ diễn giải của phần tổng hợp ở trên
-
-**+ Số tiền** Nhập số tiền cần chi
-
-Nhập các thông tin của hóa đơn như:
-
-* **Serial No.**: Số Sêri của hóa đơn phát hành
-* **Số hóa đơn.**: Số hóa đơn
-* **Ngày hóa đơn**: Ngày hóa đơn
-* **Nhà cung cấp**: Nhấn F3 để chọn
-
-Nhấn nút **Save** để ghi nhận thông tin chi tiền
-
-* **Có**: TK tiền
-* **Nợ**: TK tương ứng (TK định khoản ở vùng lưới)
-
-Nhấn nút **in chứng từ** để in phiếu chi
-
-![](<../.gitbook/assets/2 (52).png>)
-
-Đối với thanh toán cho hóa đơn nhà cung cấp
-
-Bước 1: Tại ô Hóa đơn (AP Voucher) ấn F3 để tìm và chọn những hóa đơn cần thanh toán
-
-Bước 2: Có thể chọn 1 hay nhiều phiếu hóa đơn phải trả khi tích vào cột lựa chọn.
-
-Bước 3: Khi chọn các hóa đơn dữ liệu sẽ được tự động nhập vào lưới dữ liệu
-
-Các thông tin được tự động ghi nhận :
-
-![](<../.gitbook/assets/4 (32).png>)
-
-
-
-\+ Số tiền
-
-\+ Tài khoản đối ứng ( 331 công nợ )
-
-\+ Diễn giải ( VN + EN )
-
-\+ Loại tiền
-
-\+ Tỷ Giá
-
-\+ Thông tin hóa đơn ( Số hóa đơn , ngày hóa đơn , số serial )
-
-\+ Mã nhà cung cấp
-
-\+ Số phiếu hóa đơn phải trả
-
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-Các nút khác:
-
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-
-\-        P trước: Previous Voucher
-
-\-        P sau: Next Voucher
-
-\-        Điều chỉnh : thay đổi trạng thái của phiếu để sửa trực tiếp ( trong trường hợp người dùng được phân quyền )
-
-#### b) Nghiệp vụ thu tiền mặt, thu tiền gửi
-
-![](<../.gitbook/assets/5 (21).png>)
-
-![](<../.gitbook/assets/6 (15).png>)
-
-**Phần Tổng hợp:**
-
-**+ Số lô.:** Để trống, chương trình chạy tự động
-
-**+ Kỳ kế toán:**(ví dụ hóa đơn của tháng 7 năm 2015: 07-2015) Tháng phát sinh
-
-**+ Số phiếu thu:** Nhập số phiếu thu
-
-**+ Ngày lập phiếu:** Nhập ngày phát sinh
-
-**+ Tài khoản tiền:** Nhấn F3 để chọn tài khoản tiền
-
-**+ Loại tiền, Tỷ giá quy đổi:** tùy theo loại tiền sẽ có tỷ giá đối với VND
-
-**+ Tạm ứng trước:** Nếu khoản tiền nhận về này liên quan đến khoản đã tạm ứng trước từ khách hàng có gốc ngoại tệ thì click chọn vào đây. Nếu không có thì để trống. Mục đích là có thể link qua phần kế toán phải thu để khi hạch toán kế toán phải thu cho các đơn hàng có ứng trước phần mềm giúp lấy tỷ giá đúng với phiếu tạm ứng này.
-
-**+ Lý do thu (VN-EN):** Nhập lý do thu
-
-**+ Người nhận tiền:** Nhập tên người trả tiền
-
-**+ Địa chỉ:** Nhập địa chỉ người trả tiền
-
-\+ Số phiếu hóa đơn phải thu
-
-\+ Các nút
-
-&#x20;\_ HĐ Trước: Phiếu kế tiếp
-
-&#x20;\_ HĐ Sau: Phiếu trước
-
-&#x20;\_ ĐC Phiếu: điều chỉnh chứng từ trực tiếp (chỉ hiện khi được phân quyền)
-
-**Phần chi tiết:**
-
-**+ Tài khoản:** nhấn F3 để chọn tài khoản tương ứng.
-
-**+ Diễn giải(VN-EN):** Nhập diễn giải cho nghiệp vụ
-
-**+Số tiền:** Nhập số tiền thu về
-
-Nhập các thông tin của hóa đơn như:
-
-* **Serial No.**: Số Sêri của hóa đơn phát hành
-* **Số hóa đơn.**: Số hóa đơn
-* **Ngày hóa đơn**: Ngày hóa đơn
-* **Nhập mã khách hàng**: Nhấn F3 để chọn
-
-Nhấn nút **Save** để ghi nhận thông tin thu tiền
-
-* **Nợ**: TK tiền
-* **Có**: TK tương ứng (TK định khoản ở vùng lưới)
-
-Nhấn nút **in chứng từ** để in phiếu thu
-
-![](<../.gitbook/assets/7 (18).png>)
-
-**Ghi chú:**
-
-Trường hợp nhập chi phí kèm thuế VAT đầu vào hay nhập doanh thu tiền mặt kèm thuế VAT đầu ra, trong phần chi tiết nhập 2 dòng:
-
-\+ Dòng 1: Nhập nghiệp vụ tương ứng với số tiền chưa thuế
-
-\+ Dòng 2: Nhập thuế đầu vào (133) hoặc đầu ra (333), việc nhập giá trị thuế VAT đầu vào hay đấu ra là do người dùng tự tính toán và nhập.
-
-&#x20;
-
-Tương tự với chi tiền mặt và chi ngân hàng , khi thu tiền từ hóa đơn phải thu
-
-![](<../.gitbook/assets/8 (13).png>)
-
-Bước 1: Nhấn F3 để tìm phiếu AR
-
-Bước 2: Tại ô Số Phiếu Hóa đơn phải thu ấn F3 để chọn 1 hoặc nhiều phiếu
-
-Bước 3: Ấn nút Xử lý (Execute) để dữ liệu ghi nhận vào lưới dữ liệu
-
-Các thông tin được tự động ghi nhận :
-
-\+ Số tiền
-
-\+ Tài khoản đối ứng ( 131 công nợ )
-
-\+ Diễn giải ( VN + EN )
-
-\+ Loại tiền
-
-\+ Tỷ Giá
-
-\+ Thông tin hóa đơn ( Số hóa đơn , ngày hóa đơn , số serial )
-
-\+ Mã khách hàng
-
-\+ Số phiếu hóa đơn phải thu
-
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+### Phiếu chi (Chi tiền mặt / Chi ngân hàng)
+
+**Nghiệp vụ áp dụng:** Ghi nhận các khoản chi tiền mặt từ quỹ hoặc chi qua ngân hàng: chi thanh toán nhà cung cấp, chi lương, chi mua vật tư, chi tạm ứng, hoàn ứng. Hệ thống có hai màn riêng:
+  - **Chi tiền mặt:** Chi từ quỹ tiền mặt (TK 111).
+  - **Chi ngân hàng:** Chi qua tài khoản ngân hàng (TK 112).
+
+> **Ví dụ nghiệp vụ:** Phiếu chi PC26/040025 ngày 29/04/2026 — chi tiền mặt thanh toán CÔNG TY TNHH LLVK mua đồ ăn cho ký túc xá theo HĐ 00003076, số tiền 2.664.000đ — Nợ TK 3311 / Có TK 1111.
+
+![](../.gitbook/assets/image82.png)
+
+Để nhập phiếu chi, người dùng thực hiện như sau:
+
+1. Nhấn **Thêm mới** để tạo phiếu chi mới, hoặc nhấn **F3** tại **Số tham chiếu** để tìm phiếu cũ.
+2. Nhập **Ngày chứng từ**, kiểm tra **Tháng kế toán** và **Số chứng từ**.
+3. Chọn **Cách xử lý**. Nên giữ Chưa ghi sổ khi phiếu còn chờ kiểm tra, chuyển sang Ghi sổ khi đã duyệt chi và cần ghi sổ.
+4. Chọn **Tài khoản tiền** phù hợp với màn hình: 111 cho chi tiền mặt, 112 cho chi ngân hàng.
+5. Nhập **Người nhận tiền**, **Địa chỉ** và **Lý do chi VN / EN / KR**.
+6. Nếu chi để thanh toán công nợ AP, nhấn **F3** tại **Phải trả** để liên kết chứng từ gốc.
+7. Nhập các dòng chi tiết: tài khoản đối ứng, số tiền, thông tin hóa đơn/thuế, mã nhân viên hoặc mã KH/NCC nếu cần theo dõi.
+8. Kiểm tra **Tổng tiền** và nhấn **Lưu**; sau đó in phiếu chi hoặc ghi sổ theo quy trình.
+
+- **Thông tin chung:**
+  - Số tham chiếu: Mặc định `<NEW>` khi thêm mới; nhấn **F3** để tìm chứng từ cũ.
+  - Ngày chứng từ / Tháng kế toán / Số chứng từ: Hệ thống tự động hiển thị theo ngày hiện tại và quy tắc cấu hình.
+  - Người nhận tiền / Địa chỉ: Nhập tên và địa chỉ đơn vị/cá nhân nhận tiền.
+  - Tài khoản tiền / Loại tiền / Tỷ giá: Chọn tài khoản tiền mặt/tiền gửi và loại tiền tệ (mặc định VND).
+  - Tỷ giá đích danh: Để trống để hệ thống tự tính tỷ giá xuất quỹ; tích chọn nếu muốn nhập thủ công tỷ giá cụ thể.
+  - Phải trả / Chứng từ gốc: Nhấn **F3** để liên kết với chứng từ AP liên quan.
+  - Lý do chi VN / EN / KR: Nhập diễn giải lý do chi theo từng ngôn ngữ.
+
+- **Lưới chi tiết:**
+  - Tài khoản đối ứng / Diễn giải: Nhập TK đối ứng và nội dung từng dòng định khoản.
+  - Thuế suất / Tiền thuế: Chọn % thuế — hệ thống tự động tính tiền thuế từng dòng.
+  - Số HĐ / Số seri / Mẫu HĐ / Ngày HĐ: Nhập thông tin hóa đơn GTGT để lên bảng kê thuế.
+  - Mã NV / Mã KH / NCC: Nhập mã nhân viên, khách hàng hoặc nhà cung cấp liên quan.
+
+- **Các nút chức năng:**
+  - P. trước / P. sau: Duyệt chứng từ liền kề.
+  - Xuất lưới / Nhập liệu: Xuất dữ liệu ra Excel hoặc nhập dữ liệu từ file ngoài.
+  - Tệp mẫu: Xuất mẫu Excel để nhập dữ liệu chi tiết trước khi nhập dữ liệu.
+  - In chứng từ: In hoặc xuất PDF theo mẫu.
+  - Lưu / Sao chép / Thêm mới / Xóa / Đóng: Các thao tác tiêu chuẩn.
+
+- **Lưu ý khi thao tác:**
+  - Với chi tiền mặt, tài khoản tiền phải là tài khoản 111; với chi ngân hàng, dùng tài khoản 112 theo tài khoản ngân hàng thực chi.
+  - Khi liên kết chứng từ AP, nhập đúng nhà cung cấp và số tiền chi để công nợ phải trả giảm đúng hóa đơn.
+  - Nếu dòng chi có VAT, cần nhập mã thuế và thông tin hóa đơn để lên bảng kê thuế đầu vào.
+  - Với tài khoản công nợ, cần nhập mã khách hàng/nhà cung cấp tương ứng; với tài khoản quản trị, nhập đủ mã chi phí/vụ việc/lợi nhuận nếu hệ thống yêu cầu.
+  - Chứng từ ở trạng thái Đã ghi sổ muốn sửa cần bỏ ghi sổ hoặc lập chứng từ điều chỉnh theo quy trình kiểm soát.
+
+> **Hệ thống tự kiểm tra khi Lưu:**
+> - Số chứng từ bắt buộc nhập, 4 ký tự cuối phải là số và không được trùng trong cùng kỳ.
+> - Ngày chứng từ phải thuộc đúng tháng kế toán và kỳ kế toán chưa đóng.
+> - Tài khoản tiền, loại tiền và tỷ giá là bắt buộc; tỷ giá phải lớn hơn 0.
+> - Phải có ít nhất một dòng chi tiết; tài khoản đối ứng phải hợp lệ trong phân hệ tiền.
+> - Số tiền trên dòng không được âm.
+> - Nếu có tiền thuế và bật theo dõi thuế, dòng chi tiết phải có mã thuế.
+> - Nếu tài khoản yêu cầu mã đối tượng hoặc mã phân bổ, hệ thống sẽ yêu cầu nhập trước khi lưu.
+
+> **Lưu ý:** Sau khi Lưu, phiếu chi ở trạng thái Chưa ghi sổ. Chuyển sang Ghi sổ để phản ánh sang Sổ Cái GL, hoặc dùng **Ghi sổ nhiều chứng từ** để ghi sổ hàng loạt.
+
+---
+
+### Phiếu thu (Thu tiền mặt / Thu ngân hàng)
+
+**Nghiệp vụ áp dụng:** Ghi nhận các khoản tiền nhận được từ khách hàng hoặc các nguồn thu khác: thu tiền bán hàng, thu hồi tạm ứng, thu lãi ngân hàng. Hệ thống có hai màn riêng:
+  - **Thu tiền mặt:** Thu vào quỹ tiền mặt (TK 111).
+  - **Thu ngân hàng:** Thu qua tài khoản ngân hàng (TK 112).
+
+> **Ví dụ nghiệp vụ:** Phiếu thu PT26/010001 ngày 14/01/2026 — thu tiền mặt từ CÔNG TY CỔ PHẦN I.T.C VIỆT NAM thanh toán theo HĐ 283, số tiền 896.400đ — Nợ TK 1111 / Có TK 1311.
+
+![](../.gitbook/assets/image83.png)
+
+Để nhập phiếu thu, người dùng thực hiện như sau:
+
+1. Nhấn **Thêm mới** để tạo phiếu thu mới, hoặc nhấn **F3** tại **Số tham chiếu** để tìm phiếu cũ.
+2. Nhập **Ngày chứng từ**, kiểm tra **Tháng kế toán** và **Số chứng từ**.
+3. Chọn **Cách xử lý**. Nên giữ Chưa ghi sổ khi phiếu còn chờ đối chiếu, chuyển sang Ghi sổ khi đã xác nhận thu tiền.
+4. Chọn **Tài khoản tiền** phù hợp với màn hình: 111 cho thu tiền mặt, 112 cho thu ngân hàng.
+5. Nhập **Người trả tiền**, **Địa chỉ** và **Lý do thu VN / EN / KR**.
+6. Nếu thu tiền cho hóa đơn AR, nhấn **F3** tại **Phải thu** để liên kết chứng từ gốc.
+7. Nhập các dòng chi tiết: tài khoản đối ứng, số tiền, thông tin hóa đơn/thuế, mã nhân viên hoặc mã KH/NCC nếu cần theo dõi.
+8. Kiểm tra **Tổng tiền** và nhấn **Lưu**; sau đó in phiếu thu hoặc ghi sổ theo quy trình.
+
+- **Thông tin chung:**
+  - Số tham chiếu: Mặc định `<NEW>` khi thêm mới; nhấn **F3** để tìm chứng từ cũ.
+  - Ngày chứng từ / Tháng kế toán / Số chứng từ: Hệ thống tự động hiển thị theo ngày hiện tại và quy tắc cấu hình.
+  - Người trả tiền / Địa chỉ: Nhập tên và địa chỉ đơn vị/cá nhân trả tiền.
+  - Tài khoản tiền / Loại tiền / Tỷ giá: Chọn tài khoản tiền mặt/tiền gửi và loại tiền tệ (mặc định VND).
+  - Phải thu / Chứng từ gốc: Nhấn **F3** để liên kết với chứng từ AR liên quan.
+  - Lý do thu VN / EN / KR: Nhập diễn giải lý do thu theo từng ngôn ngữ.
+
+- **Lưới chi tiết:**
+  - Tài khoản đối ứng / Diễn giải: Nhập TK đối ứng và nội dung từng dòng định khoản.
+  - Thuế suất / Tiền thuế: Chọn % thuế — hệ thống tự động tính tiền thuế từng dòng.
+  - Số HĐ / Số seri / Mẫu HĐ / Ngày HĐ: Nhập thông tin hóa đơn GTGT để lên bảng kê thuế.
+  - Mã NV / Mã KH / NCC: Nhập mã nhân viên, khách hàng hoặc nhà cung cấp liên quan.
+
+- **Các nút chức năng:**
+  - P. trước / P. sau: Duyệt chứng từ liền kề.
+  - Xuất lưới / Nhập liệu: Xuất dữ liệu ra Excel hoặc nhập dữ liệu từ file ngoài.
+  - Tệp mẫu: Xuất mẫu Excel để nhập dữ liệu chi tiết trước khi nhập dữ liệu.
+  - In chứng từ: In hoặc xuất PDF theo mẫu.
+  - Lưu / Sao chép / Thêm mới / Xóa / Đóng: Các thao tác tiêu chuẩn.
+
+- **Lưu ý khi thao tác:**
+  - Với thu tiền mặt, tài khoản tiền phải là tài khoản 111; với thu ngân hàng, dùng tài khoản 112 theo tài khoản ngân hàng thực nhận.
+  - Khi liên kết chứng từ AR, số tiền thu không được vượt số tiền còn phải thu của chứng từ gốc.
+  - Nếu dòng thu có VAT, cần nhập mã thuế và thông tin hóa đơn để lên bảng kê thuế đúng.
+  - Với tài khoản công nợ, cần nhập mã khách hàng/nhà cung cấp tương ứng; với tài khoản quản trị, nhập đủ mã chi phí/vụ việc/lợi nhuận nếu hệ thống yêu cầu.
+  - Chứng từ ở trạng thái Đã ghi sổ muốn sửa cần bỏ ghi sổ hoặc lập chứng từ điều chỉnh theo quy trình kiểm soát.
+
+> **Hệ thống tự kiểm tra khi Lưu:**
+> - Số chứng từ bắt buộc nhập, 4 ký tự cuối phải là số và không được trùng trong cùng kỳ.
+> - Ngày chứng từ phải thuộc đúng tháng kế toán và kỳ kế toán chưa đóng.
+> - Tài khoản tiền, loại tiền và tỷ giá là bắt buộc; tỷ giá phải lớn hơn 0.
+> - Phải có ít nhất một dòng thu; tài khoản đối ứng phải hợp lệ trong phân hệ tiền.
+> - Số tiền trên dòng không được âm.
+> - Nếu có tiền thuế và bật theo dõi thuế, dòng chi tiết phải có mã thuế.
+> - Nếu liên kết chứng từ AR, hệ thống kiểm tra không cho thu vượt số phải thu còn lại theo từng loại tiền.
+> - Nếu tài khoản yêu cầu mã đối tượng hoặc mã phân bổ, hệ thống sẽ yêu cầu nhập trước khi lưu.
+
+> **Lưu ý:** Sau khi Lưu, phiếu thu ở trạng thái Chưa ghi sổ. Chuyển sang Ghi sổ để phản ánh sang Sổ Cái GL.

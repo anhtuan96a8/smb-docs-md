@@ -1,41 +1,105 @@
 # 5.2 Phân mục nhập liệu
 
-#### a) Thanh lý tài sản:
+### Ghi tăng TSCĐ
 
-\+ Số lô: Phần mềm sẽ tự động cập nhật;
+**Nghiệp vụ áp dụng:** Khi doanh nghiệp mua mới, được cấp, được tặng hoặc phát hiện thừa tài sản cố định cần ghi nhận vào sổ sách. Phiếu ghi tăng TSCĐ cập nhật danh mục tài sản và có thể đồng thời sinh chứng từ phải trả (AP) nếu mua từ nhà cung cấp.
 
-\+ Ngày chứng từ: Ngày tiến hành thanh lý;
+> **Ví dụ:** Mã TS 2017FA15 — Máy nén khí 1 bộ-HĐ 0000381-Yujin, nguyên giá 251.923.600đ, nhóm tài sản 2112 (Máy móc thiết bị), ĐVT: Bộ, số lượng 2, số tháng khấu hao 72 tháng. TK nguyên giá 2112 / TK khấu hao 21412 / TK chi phí KH 6274.
 
-\+ Kỳ kế toán: Phần mềm sẽ tự động cập nhật căn cứ theo ngày chứng từ ;
+Để lập phiếu ghi tăng tài sản cố định, người dùng thực hiện như sau:
 
-\+ Số chứng từ: Phần mềm sẽ tự động cập nhật;
+1. Nhấn **Thêm mới** hoặc nhấn **F3** để chọn phiếu cũ.
+2. Nhập thông tin chung: Số phiếu, Ngày chứng từ, Kỳ kế toán.
+3. Tại lưới chi tiết, nhập **Mã TSCĐ**, **Số lượng**, **Đơn giá** và **Thuế**.
+4. Nhấn **Lưu** — chứng từ ở trạng thái **Chưa ghi sổ**.
+5. Chuyển **Ghi sổ** để cập nhật danh mục TSCĐ vào hệ thống.
 
-\+ Custommer ID: Nhấn nút F3 để chọn mã khách hàng
+- **Thông tin chung:**
+  - Số phiếu / Ngày chứng từ / Kỳ kế toán: Hệ thống tự động sinh theo quy tắc cấu hình.
+  - Cách xử lý: Chọn trạng thái Chưa ghi sổ để giữ lại kiểm tra hoặc Ghi sổ để cập nhật ngay.
 
-+Tiền giao dịch, tỉ giá: Lựa chọn loại tiền giao dich, và chọn tỉ giá quy đổi nếu loại tiền giao dịch khác VND
+- **Lưới chi tiết:**
+  - Mã TSCĐ: Chọn tài sản từ danh mục đã khai báo — hệ thống tự động hiển thị tên, tài khoản.
+  - Số lượng / Đơn giá / Thuế: Nhập giá trị ghi tăng và thuế GTGT (nếu có).
 
-\+ Nhập diễn giải bằng tiến Việt, Anh, Hàn quốc (nếu có)
+- **Tab Phân bổ chi phí mua:**
+  - Dùng để phân bổ các chi phí liên quan đến việc mua TSCĐ (vận chuyển, lắp đặt, chạy thử) vào nguyên giá tài sản.
 
-\+ Lựa chọn mã tài sản thanh lý bằng cách chọn F3
+- **Các nút chức năng:**
+  - Tạo công nợ (AP): Tích chọn để đồng thời sinh chứng từ phải trả sang phân hệ AP.
+  - Lưu / Sao chép / Thêm mới / Xóa / Đóng: Các thao tác tiêu chuẩn.
 
-\+ Nhập giá tiền thanh lý và F3 chọn thuế suất nếu có phát sinh
+- **Lưu ý khi thao tác:**
+  - Khi chuyển **Ghi sổ**, hệ thống cập nhật danh mục TSCĐ và không thể sửa phiếu — nếu sai phải lập phiếu điều chỉnh.
+  - Chi phí mua TSCĐ (vận chuyển, lắp đặt) cần phân bổ tại tab "Phân bổ chi phí mua" để tính đúng nguyên giá theo TT200.
+  - Nếu tích "Tạo công nợ (AP)", cần đảm bảo NCC đã được khai báo trong danh mục.
 
-![](<../.gitbook/assets/0 (104).png>)
+> **Lưu ý:** Phiếu ghi tăng TSCĐ ảnh hưởng đến cả phân hệ FA (danh mục tài sản) và AP (công nợ phải trả). Sau khi ghi sổ, tài sản sẽ xuất hiện trong bảng tính khấu hao hàng tháng.
 
-Các lựa chọn :
+---
 
-\- Tạo chứng từ phải thu cho khách hàng
+### Đánh giá lại TSCĐ
 
-Khi tick vào checkbox các thông tin về hóa đơn sẽ hiện
+**Nghiệp vụ áp dụng:** Khi cần điều chỉnh nguyên giá hoặc giá trị còn lại của tài sản cố định / CCDC theo quyết định đánh giá lại (do thay đổi giá thị trường, nâng cấp, hoặc theo yêu cầu của cơ quan nhà nước).
 
-![](<../.gitbook/assets/1 (60).png>)
+> **Ví dụ:** Đánh giá lại máy móc do nâng cấp — tăng nguyên giá thêm 10.000.000đ, Nợ TK 211 / Có TK 412 (Chênh lệch đánh giá lại tài sản).
 
-Thanh lý tài sản có thể thanh lý theo từng phần
+Để lập phiếu đánh giá lại TSCĐ, người dùng thực hiện như sau:
 
-Ví dụ : Với tài sản có số lượng là 10 , có thể thanh lý nhiều lần .
+1. Nhấn **Thêm mới** để tạo phiếu đánh giá lại.
+2. Chọn **Loại đối tượng**: TSCĐ hoặc CCDC/chi phí trả trước.
+3. Chọn mã tài sản cần đánh giá lại từ danh mục.
+4. Nhập giá trị điều chỉnh (tăng/giảm nguyên giá hoặc giá trị còn lại).
+5. Nhấn **Lưu** — chứng từ ở trạng thái **Chưa ghi sổ**.
+6. Chuyển **Ghi sổ** để cập nhật giá trị TSCĐ và ghi bút toán chênh lệch.
 
-#### b) Đánh giá lại Tài Sản
+- **Thông tin chung:**
+  - Loại đối tượng: Chọn **TSCĐ** hoặc **CCDC/chi phí trả trước** tùy theo đối tượng cần đánh giá lại.
 
-Tương tự như phần thanh lý tài sản
+- **Lưu ý khi thao tác:**
+  - Khi ghi sổ, hệ thống đồng thời cập nhật giá trị TSCĐ trong danh mục và ghi bút toán chênh lệch đánh giá lại vào sổ kế toán.
+  - Đánh giá lại TSCĐ phải có quyết định của cấp có thẩm quyền hoặc biên bản kiểm kê đánh giá lại.
 
-![](<../.gitbook/assets/2 (41).png>)
+> **Lưu ý:** Chênh lệch đánh giá lại TSCĐ được ghi nhận vào TK 412 (Chênh lệch đánh giá lại tài sản) theo TT200.
+
+---
+
+### Thanh lý TSCĐ / CCDC
+
+**Nghiệp vụ áp dụng:** Khi tài sản cố định hoặc CCDC được thanh lý, nhượng bán hoặc loại bỏ khỏi sổ sách do hết thời gian sử dụng, hư hỏng không sửa chữa được, hoặc không còn nhu cầu sử dụng. Hệ thống tự động tính giá trị còn lại và ghi nhận lãi/lỗ thanh lý.
+
+> **Ví dụ:** Thanh lý máy in cũ — nguyên giá 15.000.000đ, khấu hao lũy kế 12.000.000đ, giá trị còn lại 3.000.000đ. Bán thanh lý được 2.000.000đ → Lỗ thanh lý 1.000.000đ.
+
+![](../.gitbook/assets/image102.png)
+
+Để lập phiếu ghi giảm tài sản do thanh lý hoặc nhượng bán, người dùng thực hiện như sau:
+
+1. Nhấn **Thêm mới** để tạo phiếu thanh lý.
+2. Nhập **Số phiếu**, **Ngày chứng từ**, **Kỳ kế toán**.
+3. Chọn **Cách xử lý**, **Loại tài sản**, **Loại tiền / Tỷ giá**.
+4. Nhập **Khách hàng** (nếu nhượng bán), **TK Doanh thu - Chi phí** và **Diễn giải**.
+5. Tại lưới chi tiết, chọn **Mã tài sản** — hệ thống tự động hiển thị thông tin tài sản.
+6. Nhấn **Lưu** để hoàn tất.
+
+- **Thông tin chung:**
+  - Số phiếu / Ngày chứng từ / Kỳ kế toán / Số chứng từ: Hệ thống tự động sinh theo quy tắc cấu hình.
+  - Cách xử lý: Chọn trạng thái Chưa ghi sổ hoặc Ghi sổ.
+  - Loại tài sản: Chọn TSCĐ hoặc CCDC.
+  - Loại tiền / Tỷ giá: Mặc định VND, tỷ giá 1.00.
+  - Khách hàng: Chọn khách hàng nếu nhượng bán tài sản.
+  - TK DT-CP: Tài khoản doanh thu – chi phí thanh lý (VD: TK 711 – Thu nhập khác, TK 811 – Chi phí khác).
+  - Diễn giải (VN/EN): Mô tả lý do thanh lý.
+
+- **Lưới chi tiết:**
+  - Mã tài sản: Chọn tài sản cần thanh lý — hệ thống tự động hiển thị: tên tài sản, tài khoản, số lượng, nguyên giá, khấu hao lũy kế, giá trị còn lại và số tiền khấu hao trong tháng.
+
+- **Các nút chức năng:**
+  - Xem mẫu in / Xuất Excel: Xem trước hoặc xuất dữ liệu ra file Excel.
+  - Thêm mới / Lưu / Xóa / Đóng: Các thao tác tiêu chuẩn.
+
+- **Lưu ý khi thao tác:**
+  - Tài sản đã thanh lý sẽ bị loại khỏi bảng tính khấu hao kể từ tháng kế toán của phiếu thanh lý.
+  - Chênh lệch giữa thu nhập thanh lý và giá trị còn lại được ghi nhận vào TK 711 (lãi) hoặc TK 811 (lỗ).
+  - Cần lập biên bản thanh lý TSCĐ trước khi ghi nhận trên phần mềm.
+
+> **Lưu ý:** Phiếu thanh lý ảnh hưởng đến danh mục TSCĐ (ghi giảm), sổ kế toán (bút toán thanh lý), và báo cáo TSCĐ. Đảm bảo kỳ kế toán chưa đóng trước khi thực hiện.

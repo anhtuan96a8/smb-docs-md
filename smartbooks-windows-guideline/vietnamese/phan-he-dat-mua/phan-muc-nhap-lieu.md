@@ -1,24 +1,16 @@
 # 10.2 Báo cáo
 
-## Báo cáo
+### Báo cáo ngân sách
 
-<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+Khi cần xem báo cáo so sánh giữa ngân sách đã lập và chi phí thực tế phát sinh, theo từng tài khoản, dự án hoặc mã chi phí. Báo cáo này giúp ban lãnh đạo đánh giá hiệu quả sử dụng nguồn lực và phát hiện khoản vượt ngân sách.
 
-<figure><img src="https://lh7-us.googleusercontent.com/d8fcdcIQx4N0FcEyUnOnim570BPZ6Fa-WC6iW9J8LnBO2tPPiNfQrJN4HD4KiXPPrZi81_P4ddnnuBPfxRsnYoMF5g_yiyZ6IBU-d7Aky61rjxxn_IA0Ag9LnLyLmz8LeJDtgrFG0aTqBiIyLAZ5J17XCyhieLS9" alt=""><figcaption></figcaption></figure>
+Để xem báo cáo, người dùng thực hiện như sau:
 
-Chọn tháng / năm
+1. Chọn **Tháng / Năm** cần xem.
+2. Chọn **Tài khoản** cần đối chiếu.
+3. Chọn phạm vi báo cáo:
+   - **Tất cả:** Xem tổng hợp tất cả các dự án.
+   - **Từng dự án:** Xem chi tiết theo từng dự án.
+4. Nhấn **Xem in** để xem hoặc xuất báo cáo.
 
-Chọn tài khoản
-
-Lựa chọn khác:&#x20;
-
-* Tất cả: tất cả các dự án
-* Từng Dự Án&#x20;
-
-Chọn Xen in để xem hoặc xuất báo cáo
-
-<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://lh7-us.googleusercontent.com/WIbWIjuF8oMwbu2xbjJY9P7AqzP0zAXl-EH25eMRtZpS1RRx4XTXt0UW7_W5GrNcVpL_2elndw5AW43zYEmmycTy36MQiWBEn_dUitmaFSDJPH_kIM-g_C9t-uwoR50r17F_yDFXLDNi4v_BJSoBl8qj8JrI91fw" alt=""><figcaption></figcaption></figure>
-
-<br>
+> **Lưu ý:** Báo cáo ngân sách chỉ hiển thị dữ liệu khi đã lập ngân sách tại phần **Thiết lập ngân sách**. Nếu chưa có ngân sách, báo cáo sẽ trống.

@@ -1,181 +1,138 @@
 # 4.5 Phân mục báo cáo
 
+### Nút và tùy chọn chung trên báo cáo tiền
 
+**Nghiệp vụ áp dụng:** Các báo cáo tiền dùng để đối chiếu quỹ tiền mặt, tiền gửi ngân hàng, tạm ứng nhân viên và nhật ký thu chi. Người dùng cần chọn đúng kỳ, loại tiền, tài khoản tiền và loại báo cáo trước khi in/xuất.
 
-#### a) Sổ quỹ hàng ngày
+- **Điều kiện lọc thường gặp:**
+  - Từ ngày / Đến ngày: Khoảng thời gian lấy số liệu.
+  - Loại tiền: Chọn VND hoặc ngoại tệ.
+  - Tài khoản: Chọn tài khoản tiền mặt, tiền gửi hoặc tài khoản tạm ứng cần theo dõi.
+  - Tất cả / Chi tiết / Theo từng tài khoản: Chọn mức độ tổng hợp hoặc lọc cụ thể.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+- **Các nút chức năng:**
+  - Xem lưới: Tải dữ liệu báo cáo theo điều kiện lọc.
+  - In: In sổ quỹ, sổ ngân hàng hoặc phiếu thu/chi.
+  - Xuất Excel: Xuất dữ liệu để đối chiếu với thủ quỹ/ngân hàng.
+  - Đóng: Thoát khỏi màn hình báo cáo.
 
-Báo cáo thể hiện các bút toán thu chi theo ngày
+- **Lưu ý khi thao tác:**
+  - Sổ quỹ tiền mặt cần đối chiếu với tồn quỹ thực tế và phiếu thu/chi đã ký.
+  - Sổ tiền gửi ngân hàng cần đối chiếu với sao kê ngân hàng theo từng tài khoản.
+  - Nếu số liệu lệch, kiểm tra phiếu thu/chi còn Chưa ghi sổ hoặc kỳ chứng từ nhập sai.
 
-\-        Chọn ngày
+> **Hệ thống tự kiểm tra khi xem báo cáo:** Khoảng ngày và tài khoản lọc phải hợp lệ. Báo cáo chỉ phản ánh đúng khi phiếu thu/chi đã ghi sổ.
 
-\-        Nhấn nhút Xem báo cáo
+---
 
-#### b) Sổ quỹ tiền mặt:&#x20;
+### Sổ chi tiết tài khoản 141
 
-Thể hiện chi tiết thu, chi và tồn quỹ tiền mặt trong kỳ chọn
+**Nghiệp vụ áp dụng:** Khi cần theo dõi chi tiết các khoản tạm ứng của nhân viên (TK 141) — xem ai đang tạm ứng bao nhiêu, đã hoàn ứng chưa, số dư tạm ứng còn lại.
 
-Chọn từ ngày … đến ngày …
+> **Ví dụ:** Kiểm tra tạm ứng nhân viên Nguyễn Văn A tháng 01/2026: tạm ứng 10.000.000đ, đã hoàn ứng 7.000.000đ → còn tạm ứng 3.000.000đ.
 
-Nhấn Xem báo cáo
+Để xem báo cáo, người dùng thực hiện như sau:
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**, chọn **Loại tiền**.
+2. Chọn **Tài khoản** cần xem, chọn **Tất cả** xem tổng hợp hoặc **Chi tiết** xem từng lần phát sinh.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image91.png)
 
-**Xuất Excel :**
+---
 
-&#x20;
+### Sổ quỹ tiền mặt
 
-Loại tiền mặc định là VND và các lựa chọn khi export excel
+**Nghiệp vụ áp dụng:** Khi cần xem tổng thu/chi tiền mặt hàng ngày và số dư tồn quỹ — đây là sổ sách bắt buộc, phục vụ đối chiếu với biên bản kiểm kê quỹ tiền mặt.
 
-·       Các loại tiền khác
+Để xem báo cáo, người dùng thực hiện như sau:
 
-·       VND – USD : Báo cáo tiền VND và ngoại tệ đồng thời
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-·       Tài khoản cấp 1 :
+![](../.gitbook/assets/image92.png)
 
-a.     Tích lựa chọn : các bút toán theo tài khoản 111
+---
 
-b.     Không tích lựa chọn : các bút toán theo chi tiết các tiểu khoản
+### Sổ chi tiết quỹ tiền mặt
 
-Ví dụ : 1111, 1112 các báo cáo mỗi tài khoản theo từng sheet excel
+**Nghiệp vụ áp dụng:** Khi cần xem chi tiết từng phiếu thu/chi tiền mặt trong kỳ — phục vụ kiểm tra, đối chiếu và truy xuất nguồn gốc từng giao dịch tiền mặt.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+Để xem báo cáo, người dùng thực hiện như sau:
 
-**In Báo cáo:**
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image93.png)
 
-#### c)     Sổ chi tiết quỹ tiền mặt:&#x20;
+---
 
-Thể hiện chi tiết thu, chi và tồn quỹ tiền mặt cùng tài khoản đối ứng của từng nghiệp vụ
+### Sổ quỹ tiền gửi ngân hàng
 
-Chọn từ ngày … đến ngày…
+**Nghiệp vụ áp dụng:** Khi cần xem số dư và biến động tiền gửi tại từng tài khoản ngân hàng — phục vụ đối chiếu sao kê ngân hàng hàng tháng.
 
-**Xuất Excel:** Tương tự sổ quỹ tiền mặt
+> **Ví dụ:** Đối chiếu số dư TK tiền gửi VND tại Vietcombank cuối tháng 01/2026 với sao kê ngân hàng.
 
-&#x20;
+Để xem báo cáo, người dùng thực hiện như sau:
 
-**In báo cáo**
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày** và chọn **Loại tiền** (mặc định VND).
+2. Chọn xem **Tất cả** tài khoản hoặc lọc **Theo từng tài khoản** cụ thể.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image94.png)
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+---
 
-Tương tự với sổ quỹ tiền mặt : chức năng Export Excel (Xuất Excel) có các lựa chọn theo lọa tiền hoặc theo tài khoản
+### Nhật ký thu chi tiền
 
-Với tài khoản tiền : mặc định loại tiền là VNĐ , tuy nhiên có một số công ty hoặc trường hợp không sử dụng tiền VNĐ là tiền chính . Do đó chức năng này sẽ cho phép chọn báo cáo theo loại tiền
+**Nghiệp vụ áp dụng:** Khi cần xem tổng hợp tất cả giao dịch thu tiền hoặc chi tiền trong kỳ — phục vụ quản trị dòng tiền và lập kế hoạch tài chính.
 
-·       Các loại tiền khác : : USD …
+Để xem báo cáo, người dùng thực hiện như sau:
 
-·       VND-USD : Xuất excel với loại tiền VNĐ và USD ( Loại tiền Khác) đồng thời
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Chọn loại báo cáo: **Thu tiền** hoặc **Chi tiền**.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-·       Theo tài khoản chính:
+![](../.gitbook/assets/image95.png)
 
-a.     Chọn (check) : Sẽ xuất báo cáo theo tài khoản chính (111) – không theo từng tiểu khoản . Ví dụ : 1111 , 1112
+---
 
-b.     Không chọn (Uncheck) : Báo cáo theo từng tiểu khoản chi tiết
+### Sổ quỹ tiền gửi ngân hàng bằng ngoại tệ
 
-Ví dụ : 1111 , 1112 – với mỗi tiểu khoản sẽ được xuất theo từng sheet excel.
+**Nghiệp vụ áp dụng:** Khi doanh nghiệp có tài khoản ngân hàng ngoại tệ (USD, EUR…) và cần theo dõi biến động số dư theo nguyên tệ — phục vụ đối chiếu sao kê ngân hàng ngoại tệ.
 
-&#x20;
+Để xem báo cáo, người dùng thực hiện như sau:
 
-#### d)     Sổ chi tiết giao dịch tiền mặt
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Lọc **Theo từng tài khoản** cụ thể.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-Chọn từ ngày … đến ngày ….
+![](../.gitbook/assets/image96.png)
 
-Chọn xem in:
+---
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+### In phiếu chi
 
-#### e)     Sổ chi tiết tài khoản 141:
+**Nghiệp vụ áp dụng:** Khi cần in phiếu chi tiền mặt hoặc tiền gửi ngân hàng theo khoảng thời gian — phục vụ lưu trữ hồ sơ kế toán, ký duyệt và đính kèm chứng từ gốc.
 
-Thể hiện chi tiết tình hình tạm ứng của các cá nhân
+Để in phiếu chi, người dùng thực hiện như sau:
 
-Chọn từ ngày … đến ngày ….
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Chọn **Tất cả** để xuất cả phiếu chi tiền mặt và tiền gửi ngân hàng, hoặc chọn chi tiết từng loại.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-Chọn xem in
+![](../.gitbook/assets/image97.png)
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+---
 
-#### f)     Sổ tiền gửi ngân hàng:&#x20;
+### In phiếu thu
 
-Thể hiện chi tiết các nghiệp vụ thu, chi tiền gửi ngân hàng theo kỳ chọn.
+**Nghiệp vụ áp dụng:** Khi cần in phiếu thu tiền mặt hoặc tiền gửi ngân hàng theo khoảng thời gian — phục vụ lưu trữ hồ sơ kế toán, ký duyệt và đính kèm chứng từ gốc.
 
-(Tương tự sổ chi tiết quỹ tiền mặt)
+Để in phiếu thu, người dùng thực hiện như sau:
 
-Chọn từ ngày … đến ngày ….
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Chọn **Tất cả** để xuất cả phiếu thu tiền mặt và tiền gửi ngân hàng, hoặc chọn chi tiết từng loại.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-Export Excel
-
-In báo cáo
-
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
-Có thể chọn báo cáo dựa trên tiền tệ và các tùy chọn khác:\
-• Tiền tệ khác: USD, JPY…\
-• VND - USD: Báo cáo Excel với VND và tiền tệ nước ngoài cùng nhau\
-• Theo tài khoản chính:
-
-·        Đánh dấu vào ô kiểm: Xuất ra Excel với tài khoản chính 112 – không theo chi tiết
-
-Bỏ đánh dấu vào ô kiểm: Xuất ra Excel với tài khoản chi tiết\
-Ví dụ: 1121, 1122… với mỗi tài khoản sẽ được hiển thị trên từng sheet riêng.
-
-
-
-#### g)     Sổ tiền chi tiết gửi ngân hàng
-
-**(Tương tự sổ chi tiết quỹ tiền mặt)**
-
-Chọn từ ngày … đến ngày ….
-
-Chọn xem in
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
-Tương tự với sổ quỹ tiền mặt : chức năng Export Excel (Xuất Excel) có các lựa chọn theo lọa tiền hoặc theo tài khoản
-
-Với tài khoản tiền : mặc định loại tiền là VNĐ , tuy nhiên có một số công ty hoặc trường hợp không sử dụng tiền VNĐ là tiền chính . Do đó chức năng này sẽ cho phép chọn báo cáo theo loại tiền
-
-·       Các loại tiền khác : : USD …
-
-·       VND-USD : Xuất excel với loại tiền VNĐ và USD ( Loại tiền Khác) đồng thời
-
-·       Theo tài khoản chính:
-
-a.     Chọn (check) : Sẽ xuất báo cáo theo tài khoản chính (112) – không theo từng tiểu khoản . Ví dụ : 1121 , 1122
-
-b.     Không chọn (Uncheck) : Báo cáo theo từng tiểu khoản chi tiết
-
-Ví dụ : 1121 , 1122 – với mỗi tiểu khoản sẽ được xuất theo từng sheet excel.
-
-
-
-#### h)     Sổ Ngân Hàng chi tiết theo tiền ngoại tệ
-
-a.     Chọn Từ ngày … Đến Ngày
-
-b.     Chọn tài khoản
-
-Nhấn nút Xem (Preview)
-
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
-
-#### i)     In phiếu chi
-
-Chọn giai đoạn để in phiếu chi
-
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-
-#### j)     In phiếu thu
-
-Chọn giai đoạn để in phiếu thu
-
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
-
-#### k) Nhật ký thu chi tiền:&#x20;
-
-Thể hiện nhật ký chi tiền, nhật ký thu tiền theo kỳ chọn
+![](../.gitbook/assets/image98.png)

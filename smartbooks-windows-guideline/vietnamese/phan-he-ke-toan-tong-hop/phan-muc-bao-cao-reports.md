@@ -1,290 +1,201 @@
-# 1.5 Phân mục báo cáo (Reports)
+# 1.5 Phân mục báo cáo
 
-Sau khi dữ liệu kế toán đã được xử lý tại các phân hệ kế toán người sử dụng sẽ kết xuất được các Báo cáo sau:
+> **Lưu ý:** Trước khi xem Báo cáo tài chính, cần cấu hình chỉ tiêu tại **Cài đặt → Thiết lập Báo cáo tình hình tài chính** để mapping tài khoản vào bảng cân đối kế toán.
 
-#### a) Bảng cân đối phát sinh (Trial Balance):
+### Nút và tùy chọn chung trên các báo cáo GL
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày…Đến ngày…)
-* Chọn đơn vị tiền tệ cần thể hiện (Currency ID).
-* Chọn xuất excel nếu muốn xuất ra 1 file excel hoàn chỉnh.
-* Chọn xem trước nếu muốn xem trước khi in.
-* Chọn xem in nếu muốn in trực tiếp.
-* Chọn đóng để thoát.
-* Chi tiết Chọn Xem
+**Nghiệp vụ áp dụng:** Hầu hết báo cáo trong phân hệ Kế toán tổng hợp dùng chung một nhóm nút và điều kiện lọc. Người dùng cần hiểu ý nghĩa các nút này để xem đúng kỳ, đúng loại tiền và xuất dữ liệu phục vụ kiểm toán/đối chiếu.
 
-Xem báo cáo cân đối phát sinh trên lưới dữ liệu
+- **Điều kiện lọc thường gặp:**
+  - Từ ngày / Đến ngày: Khoảng thời gian lấy số liệu.
+  - Kỳ hiện tại / Kỳ so sánh: Dùng cho báo cáo có so sánh cùng kỳ hoặc kỳ trước.
+  - Loại tiền: Chọn VND hoặc ngoại tệ nếu báo cáo hỗ trợ.
+  - Tất cả / Theo từng tài khoản: Chọn xem toàn bộ tài khoản hoặc lọc một tài khoản cụ thể.
+  - Mã vụ việc / công trình / trung tâm chi phí: Dùng cho báo cáo quản trị theo dự án, công trình hoặc khoản mục.
 
-![](<../.gitbook/assets/0 (69).png>)
+- **Các nút chức năng:**
+  - Xem lưới: Tải dữ liệu theo điều kiện lọc.
+  - In: In báo cáo theo mẫu.
+  - Xuất Excel: Xuất dữ liệu ra Excel để gửi kiểm toán hoặc xử lý thêm.
+  - Làm mới: Tải lại dữ liệu sau khi thay đổi điều kiện lọc.
+  - Đóng: Thoát khỏi màn hình báo cáo.
 
-Với lưới dữ liệu:
+- **Lưu ý khi thao tác:**
+  - Trước khi xem báo cáo tài chính, cần chắc chắn các chứng từ trong kỳ đã ghi sổ và kỳ chưa bị thiếu bút toán kết chuyển.
+  - Nếu số liệu báo cáo không khớp, đối chiếu theo thứ tự: Bảng cân đối số phát sinh → Sổ cái tổng hợp → Sổ cái chi tiết → chứng từ gốc.
+  - Với báo cáo theo ngoại tệ, kiểm tra lại loại tiền và tỷ giá của chứng từ gốc trước khi kết luận chênh lệch.
 
-* Các tài khoản không phải tài khoản công nợ (131,331) khi click đúp dòng dữ liệu chi tiết sẽ hiện báo cáo chi tiết theo tài khoản
+> **Hệ thống tự kiểm tra khi xem báo cáo:** Khoảng ngày/kỳ báo cáo phải hợp lệ. Báo cáo tài chính phụ thuộc cấu hình chỉ tiêu và bút toán kết chuyển; nếu cấu hình thiếu, số liệu có thể không lên đủ chỉ tiêu.
 
-![](<../.gitbook/assets/1 (52).png>)
+---
 
-* Các tài khoản công nợ (131,331) khi click đúp sẽ hiện thông tin công nợ tổng hợp
+### Báo cáo tài chính
 
-![](<../.gitbook/assets/2 (29).png>)
+**Nghiệp vụ áp dụng:** Khi cần lên bộ Báo cáo tài chính tổng hợp theo quy định (Bảng cân đối kế toán, Kết quả HĐKD, Lưu chuyển tiền tệ) để nộp cơ quan thuế hoặc phục vụ quản trị nội bộ.
 
-* Các nút
-* In : báo cáo bảng cân đối phát sinh tổng hợp
-* Export Excel : Export file excel với các dữ liệu trên lưới
+Để xem báo cáo, người dùng thực hiện như sau:
 
-Ví dụ : Export file excel với số liệu tổng hợp công nợ 331
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-Bước 1 : Click đúp tài khoản 331 >>> Lưới dữ liệu sẽ hiện thêm thông tin tổng hợp công nợ
+![](../.gitbook/assets/image43.png)
 
-Bước 2 : Click nút Export Excel
+---
 
-![](<../.gitbook/assets/3 (34).png>)
+### Bảng cân đối số phát sinh
 
-#### b) Sổ cái tổng hợp (Ledger Account Listing Sumary Report)
+**Nghiệp vụ áp dụng:** Khi cần kiểm tra tổng phát sinh Nợ/Có và số dư cuối kỳ của tất cả tài khoản — đây là bước kiểm tra bắt buộc trước khi lên Báo cáo tài chính để đảm bảo tổng Nợ = tổng Có.
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày…Đến ngày…)
-* Chọn đơn vị tiền tệ cần thể hiện (Currency ID)
-* Chọn loại tài khoản cần kết xuất (Option)
+> **Ví dụ:** Kiểm tra bảng cân đối tháng 01/2026 để xác nhận tổng phát sinh Nợ = tổng phát sinh Có trước khi nộp báo cáo.
 
-&#x20;\+ All (tất cả)
+Để xem báo cáo, người dùng thực hiện như sau:
 
-&#x20;**+** Account (nhấn F3 để chọn tài khoản)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày** và chọn **Loại tiền** (mặc định VND).
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-* Chọn xem để kiểm tra báo cáo trước khi in.
-* Chọn đóng nếu muốn thoát.
-* Chọn Export Excel để xuất báo cáo file excel
+![](../.gitbook/assets/image44.png)
 
-![](<../.gitbook/assets/5 (28).png>)
+---
 
-Export excel với lựa chọn tất cả các tài khoản (All) :
+### Báo cáo tình hình tài chính
 
-* Sheet DOCSMAP : Danh mục các tài khoản chi tiết có trên file excel báo cáo
-* Click vào tài khoản để kết nối đến sheet cần xem
-* Trên từng sheet excel chi tiết : click DOCSMAP (ô B10) để trở về sheet DOCSMAP
+**Nghiệp vụ áp dụng:** Khi cần lên Bảng cân đối kế toán (Báo cáo tình hình tài chính) theo biểu mẫu Thông tư 99/TT-BTC — thể hiện tài sản, nợ phải trả và vốn chủ sở hữu tại thời điểm báo cáo.
 
-#### c) Sổ cái chi tiết (Ledger Account Listing Detail Report)
+Để xem báo cáo, người dùng thực hiện như sau:
 
-![](<../.gitbook/assets/6 (16).png>)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày…Đến ngày…)
-* Chọn đơn vị tiền tệ cần thể hiện (Currency ID)
-* Chọn loại tài khoản cần kết xuất (Option)
+![](../.gitbook/assets/image45.png)
 
-&#x20;\+ All (tất cả)
+---
 
-&#x20;**+** Account (nhấn F3 để chọn tài khoản)
+### Báo cáo kết quả hoạt động kinh doanh
 
-* Chọn xem để kiểm tra báo cáo trước khi in.
-* Chọn đóng nếu muốn thoát
-* Chọn Export Excel để xuất báo cáo file excel
+**Nghiệp vụ áp dụng:** Khi cần xem kết quả kinh doanh (doanh thu, chi phí, lợi nhuận) của kỳ hiện tại và so sánh với kỳ trước — phục vụ đánh giá hiệu quả hoạt động và nộp cơ quan thuế.
 
-Các lựa chọn
+> **Ví dụ:** So sánh doanh thu thuần tháng 01/2026 với tháng 01/2025 để đánh giá tăng trưởng.
 
-\+ Full Reports: Báo cáo chi tiết bao gồm cả các báo cáo tài chính
+Để xem báo cáo, người dùng thực hiện như sau:
 
-![](<../.gitbook/assets/7 (24).png>)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày** (Kỳ hiện tại và kỳ so sánh).
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-&#x20;\_ Bảng cân đối kế toán
+![](../.gitbook/assets/image46.png)
 
-&#x20;\_ Bảng cân đối phát sinh
+---
 
-&#x20;\_ Báo cáo kết quả hoạt động kinh doanh
+### Báo cáo lưu chuyển tiền tệ
 
-&#x20;\_ Báo cáo chi tiết các tài khoản
+**Nghiệp vụ áp dụng:** Khi cần xem dòng tiền vào/ra trong kỳ theo 3 hoạt động: kinh doanh, đầu tư, tài chính — phục vụ quản trị dòng tiền và nộp báo cáo.
 
-\_ Sheet DOCSMAP: Danh mục tài khoản chi tiết và kết nối đến các sheet tài khoản
+Để xem báo cáo, người dùng thực hiện như sau:
 
-\+ VND-USD: In báo cáo hoặc export excel với loại tiền VNĐ và USD đồng thời
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-\+ Main Accout: View báo cáo hoặc export Excel với tài khoản cấp 1
+![](../.gitbook/assets/image47.png)
 
-Ví dụ: 111, 112….
+---
 
-#### d) Bảng cân đối kế toán (Balance sheet):
+### Báo cáo lãi lỗ theo công trình
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày…Đến ngày…)
-* Chọn kết xuất excel nếu muốn kết xuất ra file excel.
-* Chọn xem in để in báo cáo.
-* Chọn xem trước để kiểm tra báo cáo trước khi in
+**Nghiệp vụ áp dụng:** Khi doanh nghiệp theo dõi doanh thu/chi phí theo từng công trình, dự án, vụ việc — cần xem lãi/lỗ riêng biệt từng công trình để đánh giá hiệu quả đầu tư.
 
-![](<../.gitbook/assets/8 (17).png>)
+> **Ví dụ:** Xem lãi/lỗ riêng của công trình "Nhà máy ABC" — tổng doanh thu 500tr, tổng chi phí 420tr → lãi 80tr.
 
-Các lựa chọn
+Để xem báo cáo, người dùng thực hiện như sau:
 
-* Xem chi tiết : Click nút xem chi tiết sẽ hiện các thông tin dữ liệu các chỉ tiêu được lấy từ tài khoản nào
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-![](<../.gitbook/assets/9 (10).png>)
+![](../.gitbook/assets/image48.png)
 
-* Export Excel : Export ra excel file với các lựa chọn
+---
 
-\+ Chi tiết : Khi chọn lựa chon sẽ xuất excel file với thông tin các chỉ tiêu từ tài khoản chi tiết
+### Sổ cái tổng hợp
 
-\+ Tổng hơp : Xuất file excel chỉ bao gồm các chỉ tiêu
+**Nghiệp vụ áp dụng:** Khi cần xem số dư đầu kỳ, phát sinh Nợ/Có và số dư cuối kỳ của tất cả tài khoản — là sổ sách kế toán bắt buộc theo quy định, phục vụ kiểm toán và lưu trữ.
 
-* In : In báo cáo
+Để xem báo cáo, người dùng thực hiện như sau:
 
-\+ Với lưới dữ liệu tổng hợp sẽ in theo số liệu tổng hợp
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-\+ Với lưới dữ liệu đang hiện chi tiết sẽ in báo cáo với số liệu chi tiết tài khoản
+![](../.gitbook/assets/image49.png)
 
-#### e) Báo cáo kết quả hoạt động kinh doanh (Income Statement):
+---
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn kết xuất ra excel nếu muốn kết xuất ra file excel.
-* Chọn xem in để in và xem báo cáo.
-* Chọn xem trước để kiểm tra báo cáo trước khi in
+### Sổ cái chi tiết
 
-![](<../.gitbook/assets/10 (11).png>)
+**Nghiệp vụ áp dụng:** Khi cần xem chi tiết từng bút toán phát sinh của một hoặc tất cả tài khoản trong kỳ — phục vụ đối chiếu, kiểm tra và truy xuất nguồn gốc từng nghiệp vụ.
 
-Các lựa chọn
+> **Ví dụ:** Xem sổ cái chi tiết TK 642 tháng 01/2026 để kiểm tra từng khoản chi phí quản lý doanh nghiệp phát sinh.
 
-* Xem chi tiết : Click nút xem chi tiết sẽ hiện các thông tin dữ liệu các chỉ tiêu được lấy từ tài khoản nào
+Để xem báo cáo, người dùng thực hiện như sau:
 
-![](<../.gitbook/assets/11 (3).png>)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày** và chọn **Loại tiền** (mặc định VND).
+2. Chọn xem **Tất cả** tài khoản hoặc lọc **Theo từng tài khoản** cụ thể.
+3. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-* Export Excel : Export ra excel file với các lựa chọn
+![](../.gitbook/assets/image50.png)
 
-\+ Chi tiết : Khi chọn lựa chon sẽ xuất excel file với thông tin các chỉ tiêu từ tài khoản chi tiết
+---
 
-\+ Tổng hơp : Xuất file excel chỉ bao gồm các chỉ tiêu
+### Bảng kê chi phí sản xuất
 
-* In : In báo cáo
+**Nghiệp vụ áp dụng:** Khi cần tổng hợp chi phí sản xuất (TK 621, 622, 627, 154…) trong kỳ — phục vụ tính giá thành sản phẩm và kiểm soát chi phí sản xuất.
 
-\+ Với lưới dữ liệu tổng hợp sẽ in theo số liệu tổng hợp
+Để xem báo cáo, người dùng thực hiện như sau:
 
-\+ Với lưới dữ liệu đang hiện chi tiết sẽ in báo cáo với số liệu chi tiết tài khoản
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-#### &#x20;f) Báo cáo lưu chuyển tiền tệ (Cash Flow)
+![](../.gitbook/assets/image51.png)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+---
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
+### Bảng kê chi phí ngoài sản xuất
 
-#### g) Danh sách tài khoản (Chart of Account)
+**Nghiệp vụ áp dụng:** Khi cần tổng hợp chi phí bán hàng (TK 641) và chi phí quản lý doanh nghiệp (TK 642) trong kỳ hiện tại, so sánh với kỳ trước — phục vụ kiểm soát chi phí hoạt động.
 
-* Chọn Print để in danh sách tài khoản đã thiết lập
-* Chọn kết xuất nếu muốn kết xuất danh sách tài khoản ra excel.
+Để xem báo cáo, người dùng thực hiện như sau:
 
-#### h) Bảng cân đối phát sinh theo ngày (Daily Trial Balance)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày** (Kỳ hiện tại và kỳ so sánh).
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-* Chọn khoảng thời gian cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
+![](../.gitbook/assets/image52.png)
 
-#### i) Bảng kê chi phí sản xuất (Particulars of Manufacturing Cost Statement)
+---
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn in để in và xem báo cáo.
+### Sổ nhật ký chung
 
-#### &#x20;j) Bảng kê chi phí ngoài sản xuất (Non-Manufacturing Cost Statement)
+**Nghiệp vụ áp dụng:** Khi cần xem toàn bộ các nghiệp vụ kinh tế phát sinh theo thứ tự thời gian — sổ nhật ký chung là sổ sách bắt buộc theo quy định kế toán, ghi nhận mọi nghiệp vụ trước khi chuyển vào sổ cái.
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
+Để xem báo cáo, người dùng thực hiện như sau:
 
-#### k) Sổ nhật ký chung (General Journal)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-* Chọn kỳ kế toán cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
+![](../.gitbook/assets/image53.png)
 
-#### &#x20;l) In phiếu hạch toán
+---
 
-* Chọn kỳ kế toán cần in phiếu hạch toán (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
+### Danh sách tài khoản
 
-#### m) In báo cáo số dư Tiền mặt
+**Nghiệp vụ áp dụng:** Khi cần in hoặc xuất danh sách toàn bộ tài khoản kế toán đang sử dụng trong hệ thống — phục vụ kiểm toán hoặc lưu trữ hồ sơ.
 
-\-        Chọn kỳ kế toán cần in phiếu hạch toán (Từ ngày ... Đến ngày ...)
+![](../.gitbook/assets/image54.png)
 
-\-        Chọn các lựa chọn (Options)
+---
 
-\-        Chọn xem in để in và xem báo cáo.
+### In phiếu hạch toán
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+**Nghiệp vụ áp dụng:** Khi cần in phiếu hạch toán (chứng từ ghi sổ) theo khoảng thời gian để lưu trữ hồ sơ kế toán hoặc đính kèm chứng từ gốc.
 
-#### n) Báo cáo các bút toán kết chuyển tự động
+Để in phiếu hạch toán, người dùng thực hiện như sau:
 
-\-        Chọn kỳ kế toán cần in phiếu hạch toán (Từ ngày ... Đến ngày ...)
+1. Nhập khoảng thời gian vào ô **Từ ngày / Đến ngày**.
+2. Nhấn **Xem lưới** để hiển thị báo cáo.
 
-Chọn xem in để in và xem báo cáo.
-
-#### o) Bảng kê chi tiết chi phí sản xuất
-
-* Chọn kỳ kế toán hiện tại cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn kỳ so sánh để so sánh (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
-
-#### p) Bảng kê chi tiết kết quả sản xuất kinh doanh
-
-* Chọn kỳ kế toán hiện tại cần kết xuất (Từ ngày ... Đến ngày ...)
-* Chọn kỳ so sánh để so sánh (Từ ngày ... Đến ngày ...)
-* Chọn xem in để in và xem báo cáo.
-
-#### q) In phiếu chi
-
-* Chọn từ ngày … đến ngày…
-* Chọn xem in để in và xem.
-
-#### r) In phiếu thu
-
-* Chọn từ ngày … đến ngày…
-* Chọn xem in để in và xem.
-
-#### s) Trial Balance by period:
-
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-\-        Chọn kỳ kế toán (Từ ngày -> Đến ngày)
-
-\-        Nhấn vào nút xuất Excel nếu bạn muốn xuất báo cáo ra file Excel.
-
-\-        Click xem in để kiểm tra báo cáo trước khi in
-
-\-        Xem in
-
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-#### t) Balance sheet by period:
-
-\-        Chọn kỳ kế toán (Từ ngày -> Đến ngày)
-
-\-        Nhấn vào nút xuất Excel nếu bạn muốn xuất báo cáo ra file Excel.
-
-\-        Click xem in để kiểm tra báo cáo trước khi in
-
-\-        Xem in
-
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-Tùy chọn:
-
-\-        Xem chi tiết: Tương tự như bảng cân đối kế toán
-
-Nhất nút xem chi tiết: Lưới dữ liệu sẽ hiển thị chi tiết số lượng từ các tài khoản số tiền
-
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-\+  Xuất Excel
-
-#### u)     Income Statement by period:
-
-\-        Chọn kỳ kế toán (Từ ngày -> Đến ngày)
-
-\-        Nhấn vào nút xuất Excel nếu bạn muốn xuất báo cáo ra file Excel.
-
-\-        Click xem in để kiểm tra báo cáo trước khi in
-
-\-        Xem in
-
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-Options:
-
-\-        Xem chi tiết: Tương tự như bảng cân đối kế toán
-
-Nhất nút xem chi tiết: Lưới dữ liệu sẽ hiển thị chi tiết số lượng từ các tài khoản số tiền
-
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-* Xuất Excel
-
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image55.png)

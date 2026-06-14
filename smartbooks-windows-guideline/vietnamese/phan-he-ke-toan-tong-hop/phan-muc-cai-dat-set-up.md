@@ -1,109 +1,148 @@
-# 1.1 Phân mục cài đặt (Set up)
+# 1.1 Phân mục cài đặt
 
-Gồm 4 khoản mục:
+### Danh mục tài khoản
 
-### PHÂN HỆ KẾ TOÁN TỔNG HỢP
+**Nghiệp vụ áp dụng:** Khi cần khai báo hoặc chỉnh sửa hệ thống tài khoản kế toán của doanh nghiệp. Hệ thống đã cung cấp sẵn danh mục theo Thông tư số 99/TT-BTC và cho phép bổ sung tài khoản cấp 2, cấp 3… tùy theo đặc thù doanh nghiệp.
 
-Kế toán tổng hợp (viết tắt là GL) là phân hệ chủ đạo trong bất kỳ một công tác ghi sổ kế toán tài khoản trong Phần mềm này. Tất cả các giao dịch mà người sử dụng nhập vào hệ thống tài khoản tiền phải thu, tài khoản tiền phải trả, tài sản cố định, hàng tồn kho đều sẽ được kết chuyển vào sổ cái (sẽ được ghi hình thức sổ theo dõi). Từ chương trình này, người sử dụng có thể thiết lập, nhập liệu thông tin tài khoản, bút toán kết chuyển và kết xuất báo cáo tài chính.
+> **Ví dụ:** Doanh nghiệp cần thêm tài khoản 6421 — Chi phí bán hàng (lương nhân viên kinh doanh) dưới tài khoản cấp 1 là 642.
 
-Phân hệ GL bao gồm 4 phân mục: Phân mục cài đặt, Phân mục nhập liệu, Phân xử lý dữ liệu, Phân mục kết xuất báo cáo.
+![](../.gitbook/assets/image26.png)
 
-#### a) Danh mục tài khoản:
+Để khai báo danh mục tài khoản, người dùng thực hiện:
 
-Phần mêm Smartbook sẽ cung cấp sẵn danh mục hệ thống tài khoản kế toán chính theo quy định của Thông tư số 200/TT-BTC do Bộ Tài Chính ban hành ngày 22/12/201&#x34;**.**
+1. Nhập mã và tên tài khoản (hỗ trợ đa ngôn ngữ), chọn loại tài khoản (Asset / Liability / Income / Expense) và **nhóm tài khoản** (chọn từ danh mục nhóm tài khoản).
+2. Chọn loại tiền và tình trạng (AC: đang dùng / IN: ngừng dùng).
+3. Tích chọn Mã chi phí / Vụ việc / Lợi nhuận nếu muốn bắt buộc nhập khi hạch toán; tích AR–AP nếu là tài khoản công nợ để kích hoạt tính năng bù trừ.
+4. Nhấn **Lưu** để hoàn tất.
 
-Smartbook còn cho phép người sử dụng thiết lập thêm tài khoản cấp 2, cấp 3… (tối đa là cấp 5) dựa trên danh mục tài khoản chính.
+- **Ô chọn và tùy chọn quan trọng:**
+  - Mã chi phí: Khi tích chọn, chứng từ phát sinh tài khoản này phải nhập mã chi phí để báo cáo chi phí theo khoản mục.
+  - Vụ việc: Khi tích chọn, chứng từ phát sinh tài khoản này phải nhập mã vụ việc/công trình/dự án.
+  - Lợi nhuận: Khi tích chọn, chứng từ phát sinh tài khoản này phải nhập mã lợi nhuận để phục vụ báo cáo quản trị.
+  - AR-AP: Dùng cho tài khoản công nợ phải thu/phải trả. Khi tích chọn, hệ thống yêu cầu mã khách hàng/nhà cung cấp và cho phép theo dõi/bù trừ công nợ.
+  - Tình trạng AC/IN: AC là tài khoản đang sử dụng; IN là tài khoản ngừng sử dụng, không nên chọn trên chứng từ mới.
 
-![](<../.gitbook/assets/0 (114).png>)
+- **Các nút chức năng:**
+  - F3 tại mã tài khoản: Tìm tài khoản đã khai báo để xem hoặc chỉnh sửa.
+  - Lưu: Lưu thông tin tài khoản và các điều kiện kiểm soát đi kèm.
+  - Thêm mới: Tạo tài khoản mới.
+  - Xóa: Xóa tài khoản chưa phát sinh dữ liệu.
+  - Đóng: Thoát khỏi màn hình.
 
-Hướng dẫn tạo tài khoản:
+> **Hệ thống tự kiểm tra khi Lưu:**
+> - Mã tài khoản và tên tài khoản không được để trống.
+> - Tài khoản con phải nằm đúng cấp/tài khoản cha theo hệ thống tài khoản.
+> - Không nên xóa hoặc đổi bản chất tài khoản đã phát sinh chứng từ vì sẽ ảnh hưởng sổ cái, công nợ và báo cáo tài chính.
 
-* Mục Mã tài khoản: Nhập mã tài khoản thứ cấp. (\*)
+> **Lưu ý:** Việc thiết lập danh mục tài khoản ảnh hưởng trực tiếp đến sổ tổng hợp, chi tiết và Báo cáo tài chính nên người sử dụng cần xem xét kỹ trước khi xoá tài khoản. Nếu đã tạo các nghiệp vụ hạch toán liên quan đến tài khoản cần xóa sẽ ảnh hưởng đến tính chính xác của các báo cáo.
 
-**Lưu ý**: Smartbook mặc định mã tài khoản là 7 chữ số.
+---
 
-* Tên tài khoản (VN): Nhập diễn giải tài khoản bằng tiếng Việt.
-* Tên tài khoản (EN): Nhập diễn giải tài khoản bằng tiếng Anh.
-* Tên tài khoản (KR): Nhập diễn giải tài khoản bằng tiếng Hàn Quốc hoặc các ngôn ngữ khác
-* Loại tài khoản: Chọn loại tài khoản theo tính năng: Tài sản (Asset), Nợ phải trả (Liability), Doanh thu (Income), Expense (Chi phí)
-* Nhóm TK: Chọn nhóm Tài khoản chính (3 chữ số đầu)
-* Trạng thái: thiết lập tình trạng Tài khoản: Đang hoạt động (Active), Không hoạt động (Inactive)
-* Chọn Save để lưu Tài khoản vừa thiết lập.
-* Chọn New để tạo Tài khoản mới.
-* Chọn Close để đóng cửa sổ nhập.
-* Muốn xóa tài khoản đã thiết lập:
+### Danh mục nhóm tài khoản
 
-&#x20;\+ Nhấp vào Tài khoản cần xóa
+**Nghiệp vụ áp dụng:** Khi cần phân loại các tài khoản kế toán theo nhóm (Tài sản ngắn hạn, Tài sản dài hạn, Nợ phải trả, Vốn chủ sở hữu…) để phục vụ lên Báo cáo tình hình tài chính. Hệ thống đã cung cấp sẵn danh mục nhóm cấp 1 và cấp 2 theo Thông tư 99/TT-BTC.
 
-&#x20;\+ Nhấn nút Delete.
+> **Ví dụ:** Nhóm "Tài sản ngắn hạn" bao gồm: Tiền và tương đương tiền (111, 112), Các khoản phải thu (131, 136, 138)…
 
-**Lưu ý:** Việc thiết lập danh mục tài khoản ảnh hưởng trực tiếp đến sổ tổng hợp, chi tiết và Báo cáo tài chính nên người sử dụng cần xem xét kỹ trước khi xoá tài khoản. Nếu đã tạo các nghiệp vụ hạch toán liên quan đến tài khoản cần xóa sẻ ảnh hưởng đến tính chính xác của các báo cáo.
+![](../.gitbook/assets/image27.png)
 
-#### b) Danh mục nhóm tài khoản:
+Để khai báo danh mục nhóm tài khoản, người dùng thực hiện:
 
-Smartbook cung cấp sẵn danh mục nhóm tài khoản cấp 1 và cấp 2 theo thông tư số 200/2014/TT-BTC ngày 22/12/2014.
+1. Nhập mã và tên nhóm tài khoản.
+2. Nhấn **Lưu** để hoàn tất.
 
-Người sử dụng có thể thiết lập thêm nhóm tài khoản cấp 1 và cấp 2 sau khi được Bộ Tài Chính chấp thuận.
+- **Các nút chức năng:**
+  - F3 tại mã nhóm: Tìm nhóm tài khoản đã khai báo.
+  - Lưu: Lưu nhóm tài khoản.
+  - Thêm mới: Tạo nhóm mới.
+  - Xóa: Xóa nhóm chưa được sử dụng.
+  - Đóng: Thoát khỏi màn hình.
 
-![](<../.gitbook/assets/1 (58).png>)
+> **Hệ thống tự kiểm tra khi Lưu:** Mã nhóm không được để trống và không nên xóa nhóm đã được gán cho tài khoản kế toán.
 
-Hướng dẫn tạo nhóm tài khoản:
+---
 
-* Mã nhóm: Nhập mã Tài khoản cấp 1 cần tạo.
-* Tên nhóm (VN): Diễn giải tiếng Việt.
-* Tên nhóm (EN): Diễn giải tiếng Anh.
-* Tên nhóm (KR): Diễn giải tiếng Hàn Quốc.
-* Chọn Save để lưu Tài khoản vừa thiết lập.
-* Chọn New để tạo Tài khoản mới.
-* Chọn Close để đóng cửa sổ nhập.
+### Thiết lập báo cáo tình hình tài chính
 
-#### c) Thiết lập Bảng cân đối kế toán:
+**Nghiệp vụ áp dụng:** Khi cần cấu hình (mapping) các chỉ tiêu trên Báo cáo tình hình tài chính — gán số dư tài khoản vào từng chỉ tiêu báo cáo. Hệ thống đã thiết lập sẵn theo biểu mẫu Thông tư 99/TT-BTC; người dùng chỉ cần kiểm tra và tùy chỉnh nếu cần.
 
-Smartbook thiết lập sẵn những khoản mục sẽ thể hiện trên Bảng Cân Đối Kế Toán (BCĐKT) theo Thông tư 200/2014/TT-BTC ngày 22/12/2014.
+> **Ví dụ:** Gán số dư Nợ TK 111 (Tiền mặt) vào chỉ tiêu "Tiền và tương đương tiền" trên bảng cân đối kế toán.
 
-Người sử dụng có thể lược bỏ những khoản mục không cần thiết trên BCĐKT bằng cách nhấp vào ô chọn.
+Để thiết lập, vào phân hệ **Kế toán tổng hợp**, chọn **Thiết lập Báo cáo tình hình tài chính**, thực hiện theo các bước sau:
 
-**Bước 1**: thiết lập các thông tin: code, diễn giải (VN, EN, KR), IsTotal(là code tổng), InActive (có được hiện lên trên BCĐKT hay không).
+**Bước 1: Thiết lập thông tin chỉ tiêu báo cáo**
 
-![](<../.gitbook/assets/2 (50).png>)
+- **Thông tin chỉ tiêu:**
+  - Code: Mã chỉ tiêu theo chuẩn Thông tư 99.
+  - Diễn giải VN / EN / KR: Tên chỉ tiêu bằng tiếng Việt, Anh, Hàn.
+  - Tổng cộng: Tích chọn nếu đây là chỉ tiêu tổng — hệ thống sẽ tự cộng từ các chỉ tiêu con và không cho phép gán tài khoản trực tiếp.
+  - Tình trạng: Tích chọn để ẩn chỉ tiêu này khỏi báo cáo tài chính; để trống nếu muốn hiển thị bình thường.
 
-**Bước 2**: Chỉ định các số dư tài khoản theo những code trên BCĐKT
+![](../.gitbook/assets/image28.png)
 
-* BalType: có 2 loại
+**Bước 2: Chỉ định số dư tài khoản theo mã chỉ tiêu**
 
-\+ D: Số dư bên Nợ
+Tại lưới dữ liệu, người dùng khai báo các thông tin gán tài khoản vào chỉ tiêu báo cáo:
 
-\+ C: Số dư bên Có
+- **Lưới chỉ định tài khoản:**
+  - Loại số dư: Chọn D (lấy số dư Nợ) hoặc C (lấy số dư Có).
+  - Tài khoản / Descr VN / EN: Chọn tài khoản kế toán cần gán và tên diễn giải tương ứng.
+  - Chuyển tiếp: Điền + nếu giá trị dương, - nếu giá trị âm (các khoản giảm trừ, hao mòn...).
+  - Mã chỉ tiêu / Tên chỉ tiêu VN / EN: Chọn chỉ tiêu báo cáo và tên tương ứng từ danh mục đã thiết lập.
 
-* Acct: nhấn F3 để chọn tài khoản
-* AmtType: số dư được tính trên BCĐKTlà số - hay +
-* Code: Code của BCĐKT
-* BegAmt, EndAmt: số dư đầu kì, cuối kì của lần mở BCĐKT cuối cùng (có thể dùng để kiểm tra dữ liệu).
+> **Ví dụ:** Dòng STT = 1 lấy số dư bên Nợ của tài khoản 111, giữ dấu dương ở cột Chuyển tiếp và đưa vào chỉ tiêu 111 trên báo cáo.
 
-![](<../.gitbook/assets/3 (32).png>)
+Sau khi hoàn tất, nhấn **Lưu** để lưu lại, **Chuyển tiếp** để sang bước tiếp theo, hoặc **Đóng** để thoát.
 
-**Bước 3**: Thiết lập các Code BCĐKT con lên các Code BCĐKT cao hơn
+- **Các nút chức năng và ô chọn:**
+  - Tổng cộng: Đánh dấu chỉ tiêu tổng hợp. Chỉ tiêu này lấy số liệu từ các chỉ tiêu con, không lấy trực tiếp từ tài khoản.
+  - Tình trạng: Dùng để ẩn/không sử dụng chỉ tiêu trên báo cáo.
+  - Lưu: Lưu cấu hình tại bước hiện tại.
+  - Chuyển tiếp: Sang bước kế tiếp trong quy trình cấu hình báo cáo.
+  - Quay lại: Trở về bước trước để kiểm tra lại thiết lập.
+  - Đóng: Thoát khỏi màn hình thiết lập.
 
-![](<../.gitbook/assets/4 (30).png>)
+> **Hệ thống tự kiểm tra khi Lưu:** Chỉ tiêu tổng không nên gán trực tiếp tài khoản; tài khoản gán vào báo cáo phải tồn tại trong danh mục tài khoản và cần chọn đúng loại số dư Nợ/Có.
 
-**Bước 4**: Thiết lập các Code BCĐKT tổng lên các Code BCĐKTTổng cao nhất (các Code này không có số dư từ tài khoản)
+![](../.gitbook/assets/image29.png)
 
-![](<../.gitbook/assets/5 (18).png>)
+**Bước 3: Thiết lập các chỉ tiêu con lên chỉ tiêu cha**
 
-#### d) Khai báo bút toán kết chuyển số dư tài khoản:
+Gán các mã chỉ tiêu con lên các mã chỉ tiêu tổng hợp cao hơn để hệ thống tự động cộng dồn khi lên báo cáo.
 
-Chức năng này giúp người sử dụng thiết lập phương thức kết chuyển tự động cuối kỳ.
+![](../.gitbook/assets/image30.png)
 
-![](<../.gitbook/assets/6 (17).png>)
+**Bước 4: Thiết lập chỉ tiêu tổng lên chỉ tiêu tổng cao nhất**
 
-Hướng dẫn thiết lập:
+Gán các chỉ tiêu tổng lên chỉ tiêu tổng cao nhất (các chỉ tiêu này không có số dư trực tiếp từ tài khoản, chỉ cộng từ các chỉ tiêu con).
 
-\- Acct: Nhập TK nguồn (Nhấn F3 chọn TK hoặc nhập trực tiếp)
+![](../.gitbook/assets/image31.png)
 
-\- AmtType: Phương thức kết chuyển số dư của TK nguồn
+---
 
-\+ C: ghi nhận Có (credit) của TK nguồn
+### Khai báo bút toán kết chuyển số dư tài khoản
 
-\+ D: ghi nhận Nợ (debit) của TK nguồn
+**Nghiệp vụ áp dụng:** Khi cần cấu hình sẵn các phương thức và thứ tự kết chuyển số dư tài khoản tự động vào thời điểm cuối kỳ (tháng/quý/năm), giảm thiểu sai sót và tiết kiệm thời gian làm việc thủ công.
 
-\- StepCode: Các bước kết chuyển (ví dụ từ TK loại 5, 6, 7, 8 sang 911 là bước 1 và từ 911 kết chuyển sang 4212 sẽ là bước thứ 2).
+> **Ví dụ:** Cuối kỳ kết chuyển doanh thu bán hàng — Nợ 511 / Có 911; kết chuyển chi phí quản lý — Nợ 911 / Có 642; sau đó kết chuyển lãi/lỗ — Nợ 911 / Có 4212.
+
+![](../.gitbook/assets/image32.png)
+
+Tại lưới dữ liệu, người dùng khai báo các thông tin cho từng bút toán kết chuyển:
+
+- **Chi tiết khai báo:**
+  - Tài khoản / Tên tài khoản: Tài khoản nguồn lấy số dư kết chuyển đi và tên diễn giải (3 ngôn ngữ).
+  - Phương thức lấy số dư: Chọn C (số dư Có) hoặc D (số dư Nợ).
+  - Tới tài khoản: Tài khoản đích nhận số dư kết chuyển (ví dụ: 911, 1541, 4212...).
+  - Diễn giải VN / EN / KR: Nội dung tự động hiển thị trên chứng từ kết chuyển.
+  - Thứ tự thực hiện: Bước 1 kết chuyển doanh thu/chi phí về 911 hoặc 1541; Bước 10 kết chuyển từ 911 sang 4212 (thực hiện sau cùng).
+
+- **Các nút chức năng:**
+  - Lưu: Lưu danh sách bút toán kết chuyển.
+  - Thêm dòng: Khai báo thêm một bút toán kết chuyển.
+  - Xóa dòng: Xóa dòng cấu hình chưa cần dùng.
+  - Đóng: Thoát khỏi màn hình.
+
+> **Hệ thống tự kiểm tra khi Lưu:** Tài khoản nguồn, phương thức lấy số dư, tài khoản đích và thứ tự thực hiện là các thông tin cần kiểm tra kỹ. Nếu thiết lập sai thứ tự, số liệu kết chuyển cuối kỳ có thể bị lệch.
+
+> **Lưu ý:** Số dư đầu kỳ cần được nhập trước khi hạch toán phát sinh trong kỳ.

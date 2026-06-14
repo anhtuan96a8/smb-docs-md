@@ -1,54 +1,28 @@
 # 2.1 Phân mục cài đặt
 
-**PHÂN HỆ KẾ TOÁN PHẢI TRẢ**
+### Danh mục nhà cung cấp
 
-![](<../.gitbook/assets/0 (86).png>)
+**Nghiệp vụ áp dụng:** Khi cần khai báo, quản lý thông tin các đối tượng (nhà cung cấp, khách hàng) giao dịch với doanh nghiệp. Đây là danh mục cốt lõi phục vụ theo dõi công nợ chi tiết (Phải thu TK 131, Phải trả TK 331), quản lý thông tin xuất hóa đơn và tự động liên kết dữ liệu khi hạch toán.
 
-Từ Bảng danh mục (Menu), ta có thể thấy phân hệ AP bao gồm 5 phân mục:
+> **Ví dụ:** Khai báo NCC "Công ty TNHH Vật tư ABC" — MST 0312345678, TK phải trả mặc định 331, thuế suất 10%, loại tiền VND.
 
-**- Phân mục cài đặt: Danh mục nhà cung cấp**
+![](../.gitbook/assets/image56.png)
 
-**- Phân mục nhập liệu (Input): Hóa đơn nhà cung cấp**
+Để khai báo thông tin nhà cung cấp / khách hàng, người dùng thực hiện như sau:
 
-**- Phân mục xử lý dữ liệu (Proccess): Xử lý nhiều chứng từ**
+- **Thông tin cơ bản:**
+  - Mã / Tên nhà cung cấp: Nhập mã định danh và tên đầy đủ theo giấy phép đăng ký kinh doanh.
+  - Là NCC / Là KH: Tích chọn vai trò đối tượng; có thể chọn đồng thời cả hai nếu vừa mua vừa bán.
+  - Mã số thuế / Địa chỉ / Điện thoại / Email: Nhập thông tin liên hệ và mã số thuế để đối chiếu bảng kê thuế GTGT.
 
-**- Phân mụcchi tiết hạch toán (Inquiry): Chi tiết hạch toán phải trả**
+- **Thông tin mặc định:**
+  - Thời hạn thanh toán: Chọn điều khoản thanh toán (00 - Tiền mặt, 01 - 30 ngày...) để tự động tính ngày đến hạn.
+  - Thuế suất: Chọn mã thuế GTGT thường áp dụng — hệ thống sẽ gợi ý mã thuế mặc định khi hạch toán cho đối tượng.
+  - Tài khoản phải thu / Phải trả / Doanh thu: Gán tài khoản công nợ và doanh thu mặc định cho đối tượng.
+  - Loại tiền / Tỷ giá: Chọn đồng tiền giao dịch (mặc định VND).
 
-**- Phân mục báo cáo (Reports)**
+- **Các nút chức năng:**
+  - Xuất Excel / Nhập liệu: Xuất dữ liệu ra file Excel hoặc nhập dữ liệu từ file ngoài.
+  - Lưu / Sao chép / Thêm mới / Xóa / Đóng: Các thao tác tiêu chuẩn.
 
-
-
-**2.1 Phân mục cài đặt**
-
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
-
-Tại phân mục cài đặt người sử dụng tạo danh mục nhà cung cấp bao gồm mã nhà cung cấp, tên nhà cung cấp. Có 3 nội dung cần tạo lập:
-
-*
-  * Nhà cung cấp: Nhập người đại diện, số fax, điện thoại, địa chỉ, mã số thuế của nhà cung cấp
-  * Mặc định: Chọn thời hạn thanh toán, thuế suất, tài khoản công nợ, tài khoản ứng trước, loại tiền sử dụng, tỷ giá quy đổi nếu là ngoại tệ.
-  * Thông tin khác: Dùng để nhập số tài khoản ngân hàng, tên ngân hàng, số điện thoại, số fax.
-
-Sau khi nhập xong nhấn save.
-
-Tạo tên nhà cung cấp khác chọn thêm mới.
-
-Chọn Đóng sau khi đã tạo xong danh mục nhà cung cấp.
-
-Các lựa chọn khác
-
-Xuất Excel: xuất danh sách nhà cung cấp ra file excel
-
-Nhập liệu: Khai báo thông tin nhà cung cấp từ file excel
-
-Bước 1: Click chọn Import sẽ xuất hiện hộp hội thoại chọn file
-
-![](<../.gitbook/assets/1 (44).png>)
-
-Nút File mẫu: lấy mẫu file excel
-
-Bước 2: Click nút ![](<../.gitbook/assets/2 (53).png>) để chọn file excel ( với mẫu có sẵn )
-
-Bước 3 : Click nút ![](<../.gitbook/assets/3 (29).png>) để import dữ liệu từ file excel vào phần mềm
-
-Lưu ý : Trong quá trình import từ file excel không đổi tên sheet có sẵn trên file mẫu
+> **Lưu ý:** Danh mục NCC/KH dùng chung cho cả phân hệ Phải trả (AP) và Phải thu (AR). Khi tích chọn đồng thời "Là NCC" và "Là KH", đối tượng sẽ xuất hiện ở cả hai phân hệ.

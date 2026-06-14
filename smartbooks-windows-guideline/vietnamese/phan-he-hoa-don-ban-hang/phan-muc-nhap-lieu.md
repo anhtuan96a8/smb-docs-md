@@ -1,15 +1,26 @@
 # 8.2 Phân mục nhập liệu
 
-#### a) In hóa đơn
+### In hóa đơn
 
-Từ phân hệ kế toán phải thu nhập liệu các thông tin của hóa đơn cần in trên phân hệ này hoặc nhập liệu bán hàng ở phân hệ quản lý kho. Sau khi xử lý chứng từ ở các phân hệ này ta sẽ có danh mục các hóa đơn cần in
+**Nghiệp vụ áp dụng:** Khi cần in hóa đơn bán hàng cho các chứng từ đã được nhập liệu ở phân hệ Kế toán phải thu (AR) hoặc phân hệ Quản lý kho (phiếu bán hàng). Sau khi xử lý chứng từ ở các phân hệ này, danh sách hóa đơn cần in sẽ hiển thị tại đây.
 
-![](<../.gitbook/assets/0 (14).png>)
+![](../.gitbook/assets/0 (14).png)
 
-Chọn hóa đơn cần in bằng cách click vào cột print và chọn chi tiết để in hóa đơn
+Để in hóa đơn, người dùng thực hiện như sau:
 
-#### b) Kiểm tra hóa đơn
+1. Xem danh sách hóa đơn cần in trên lưới.
+2. Tích chọn hóa đơn cần in bằng cách nhấp vào cột **In**.
+3. Nhấn **Chi tiết** để xem và in hóa đơn.
 
-![](<../.gitbook/assets/1 (1).png>)
+---
 
-Kiểm tra hóa đơn bằng cách gõ số hóa đơn để biết tình trạng hóa đơn đã in chưa, thông tin hóa đơn đã in.
+### Kiểm tra hóa đơn
+
+**Nghiệp vụ áp dụng:** Khi cần kiểm tra tình trạng một hóa đơn cụ thể: đã in chưa, thông tin trên hóa đơn gồm những gì, ngày in, số lượng.
+
+![](../.gitbook/assets/1 (1).png)
+
+Để kiểm tra hóa đơn, người dùng thực hiện như sau:
+
+1. Nhập **Số hóa đơn** cần kiểm tra.
+2. Hệ thống hiển thị tình trạng hóa đơn (đã in / chưa in) và thông tin chi tiết.

@@ -1,37 +1,41 @@
 # 4.1 Phân mục cài đặt
 
-### PHÂN HỆ TIỀN MẶT
+### Danh mục bộ phận
 
-![](<../.gitbook/assets/0 (70).png>)
+**Nghiệp vụ áp dụng:** Khi cần khai báo và tổ chức cơ cấu sơ đồ tổ chức (phòng ban, phân xưởng, bộ phận) trong doanh nghiệp — phục vụ phân loại nhân viên, phân quyền và lập báo cáo theo bộ phận.
 
-Từ Bảng danh mục (Menu), ta có thể thấy của phân hệ CA bao gồm 3 phân mục:
+![](../.gitbook/assets/image79.png)
 
-**- Phân mục cài đặt:** Danh mục bộ phận, chức vụ, nhân viên.
+Để khai báo danh mục bộ phận, người dùng thực hiện:
 
-**- Phân mục nhập dữ liệu (Input):** Chi tiền mặt, thu tiền mặt, chi ngân hàng, thu ngân hàng.
+1. Nhập mã và tên bộ phận.
+2. Nhấn **Lưu** để hoàn tất.
 
-**- Phân mục báo cáo (Reports)**
+---
 
-### **4.1 Phân mục cài đặt**
+### Danh mục chức vụ
 
-#### a) Danh mục bộ phận
+**Nghiệp vụ áp dụng:** Khi cần khai báo danh sách các chức danh, chức vụ (Giám đốc, Trưởng phòng, Nhân viên…) áp dụng trong doanh nghiệp — phục vụ quản lý nhân sự, phân quyền hệ thống và ký duyệt chứng từ.
 
-![](<../.gitbook/assets/0 (102).png>)
+![](../.gitbook/assets/image80.png)
 
-Danh mục bộ phận dùng để phân chia từng bộ phận của doanh nghiệp theo sơ đồ quản lý. Chọn tạo mới để nhập mã bộ phận, tên bộ phận tiếng Việt và tên bộ phận bằng tiếng Anh sau đó nhấn lưu.
+Để khai báo danh mục chức vụ, người dùng thực hiện:
 
-#### b) Danh mục chức vụ
+1. Nhập mã và tên chức vụ.
+2. Nhấn **Lưu** để hoàn tất.
 
-![](<../.gitbook/assets/1 (61).png>)
+---
 
-Danh mục chức vụ dùng để phân chia cấp bậc, chức vụ trong doanh nghiệp.
+### Danh mục nhân viên
 
-Chọn tạo mới để nhập mã chức vụ, tên chức vụ bằng tiếng Việt và bằng tiếng Anh sau đó nhấn lưu.
+**Nghiệp vụ áp dụng:** Khi cần khai báo và lưu trữ thông tin chi tiết của từng cán bộ, nhân viên — phục vụ theo dõi nhân sự, gán người nhận tiền trên phiếu chi/thu, và quản lý tạm ứng nhân viên (TK 141).
 
-#### c) Danh mục nhân viên
+> **Ví dụ:** Khai báo nhân viên Nguyễn Văn A — Bộ phận Kế toán, Chức vụ Kế toán viên, để hệ thống liên kết khi lập phiếu tạm ứng (Nợ 141 / Có 111).
 
-![](<../.gitbook/assets/2 (34).png>)
+![](../.gitbook/assets/image81.png)
 
-Danh mục nhân viên dùng để chi tiết những nhân viên thường nhận thu, chi tiền mặt, tiền ngân hàng của doanh nghiệp.
+Để khai báo thông tin nhân viên, người dùng thực hiện như sau:
 
-Chọn tạo mới để nhập danh mục nhân viên gồm mã nhân viên, tên nhân viên. Bộ phận và chức vụ thì nhấn F3 để chọn (do đã nhập ở phân hệ trên). Nhập số điện thoại, địa chỉ (nếu có) rồi nhấn lưu.
+1. Nhập **Mã nhân viên**, **Tên nhân viên**, chọn **Bộ phận / Chức vụ** từ danh sách có sẵn.
+2. Nhập **Điện thoại** và **Địa chỉ** liên hệ.
+3. Nhấn **Lưu** để hoàn tất.

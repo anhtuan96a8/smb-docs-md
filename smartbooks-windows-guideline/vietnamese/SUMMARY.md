@@ -1,15 +1,15 @@
-# Table of contents
-
 * [Giới thiệu SmartBooks](README.md)
+* [Quy trình đăng nhập hệ thống](quy-trinh-dang-nhap-he-thong.md)
 * [Phím tắt được sử dụng trên phần mềm](untitled.md)
+* [Cài đặt hệ thống](cai-dat-he-thong.md)
 
 ## 1. PHÂN HỆ KẾ TOÁN TỔNG HỢP <a href="#phan-he-ke-toan-tong-hop" id="phan-he-ke-toan-tong-hop"></a>
 
-* [1.1 Phân mục cài đặt (Set up)](phan-he-ke-toan-tong-hop/phan-muc-cai-dat-set-up.md)
-* [1.2 Phân mục nhập liệu (Input)](phan-he-ke-toan-tong-hop/phan-muc-nhap-lieu-input.md)
-* [1.3 Phân mục xử lý dữ liệu (Proccess)](phan-he-ke-toan-tong-hop/phan-muc-xu-ly-du-lieu-proccess.md)
-* [1.4 Chi tiết hạch toán (Inquiry)](phan-he-ke-toan-tong-hop/chi-tiet-hach-toan-inquiry.md)
-* [1.5 Phân mục báo cáo (Reports)](phan-he-ke-toan-tong-hop/phan-muc-bao-cao-reports.md)
+* [1.1 Phân mục cài đặt](phan-he-ke-toan-tong-hop/phan-muc-cai-dat-set-up.md)
+* [1.2 Phân mục nhập liệu](phan-he-ke-toan-tong-hop/phan-muc-nhap-lieu-input.md)
+* [1.3 Phân mục xử lý dữ liệu](phan-he-ke-toan-tong-hop/phan-muc-xu-ly-du-lieu-proccess.md)
+* [1.4 Chi tiết hạch toán](phan-he-ke-toan-tong-hop/chi-tiet-hach-toan-inquiry.md)
+* [1.5 Phân mục báo cáo](phan-he-ke-toan-tong-hop/phan-muc-bao-cao-reports.md)
 
 ## 2. PHÂN HỆ KẾ TOÁN PHẢI TRẢ <a href="#phan-he-ke-toan-phai-tra" id="phan-he-ke-toan-phai-tra"></a>
 
@@ -17,7 +17,7 @@
 * [2.2 Phân mục nhập liệu](phan-he-ke-toan-phai-tra/phan-muc-nhap-lieu.md)
 * [2.3 Phân mục xử lý: AP xử lý nhiều chứng từ](phan-he-ke-toan-phai-tra/phan-muc-xu-ly.md)
 * [2.4 Phân mục chi tiết hạch toán phải trả](phan-he-ke-toan-phai-tra/phan-muc-chi-tiet-hach-toan-phai-tra.md)
-* [2.5 Phân mục báo cáo (Reports)](phan-he-ke-toan-phai-tra/phan-muc-bao-cao-reports.md)
+* [2.5 Phân mục báo cáo](phan-he-ke-toan-phai-tra/phan-muc-bao-cao-reports.md)
 
 ## 3. PHÂN HỆ KẾ TOÁN PHẢI THU <a href="#phan-he-ke-toan-phai-thu" id="phan-he-ke-toan-phai-thu"></a>
 
@@ -25,7 +25,7 @@
 * [3.2 Phân mục nhập liệu](phan-he-ke-toan-phai-thu/phan-muc-nhap-lieu.md)
 * [3.3 Phân mục xử lý](phan-he-ke-toan-phai-thu/phan-muc-xu-ly.md)
 * [3.4 Phân mục chi tiết hạch toán](phan-he-ke-toan-phai-thu/phan-muc-chi-tiet-hach-toan.md)
-* [3.5 Phân mục báo cáo (Reports)](phan-he-ke-toan-phai-thu/phan-muc-bao-cao-reports.md)
+* [3.5 Phân mục báo cáo](phan-he-ke-toan-phai-thu/phan-muc-bao-cao-reports.md)
 
 ## 4. PHÂN HỆ TIỀN MẶT <a href="#phan-he-tien-mat" id="phan-he-tien-mat"></a>
 
@@ -45,9 +45,9 @@
 
 ## 6. PHÂN HỆ QUẢN LÝ KHO <a href="#phan-he-quan-ly-kho" id="phan-he-quan-ly-kho"></a>
 
-* [6.1 Thiết lập (Setup)](phan-he-quan-ly-kho/thiet-lap-setup.md)
-* [6.2 Nhập chứng từ (Input)](phan-he-quan-ly-kho/nhap-chung-tu-input.md)
-* [6.3 Tính giá thành & Giá vốn hàng bán (Process)](phan-he-quan-ly-kho/6.3-tinh-gia-thanh-and-gia-von-hang-ban-process.md)
+* [6.1 Thiết lập](phan-he-quan-ly-kho/thiet-lap-setup.md)
+* [6.2 Nhập chứng từ](phan-he-quan-ly-kho/nhap-chung-tu-input.md)
+* [6.3 Tính giá thành và giá vốn hàng bán](phan-he-quan-ly-kho/6.3-tinh-gia-thanh-and-gia-von-hang-ban-process.md)
 * [6.4 Báo cáo](phan-he-quan-ly-kho/bao-cao.md)
 * [Tính giá thành](phan-he-quan-ly-kho/tinh-gia-thanh.md)
 
@@ -90,7 +90,7 @@
 
 * [12.1 Sắp xếp số chứng từ](phan-he-tien-ich/tong-quan.md)
 * [12.2	Kiểm tra chứng từ](phan-he-tien-ich/12.2-kiem-tra-chung-tu.md)
-* [12.3 Kiểm tra double chứng từ](phan-he-tien-ich/12.3-kiem-tra-double-chung-tu.md)
+* [12.3 Kiểm tra chứng từ trùng](phan-he-tien-ich/12.3-kiem-tra-double-chung-tu.md)
 * [12.4 Kiểm tra công nợ khách hàng](phan-he-tien-ich/12.4-kiem-tra-cong-no-khach-hang.md)
 * [12.5 Kiểm tra công nợ nhà cung cấp](phan-he-tien-ich/12.5-kiem-tra-cong-no-nha-cung-cap.md)
 * [12.6 Khai báo khoản mục phí , Nhóm và Lợi nhuận](phan-he-tien-ich/12.6-khai-bao-khoan-muc-phi-nhom-va-loi-nhuan.md)
@@ -114,3 +114,7 @@
 ## ĐỒNG BỘ HÓA DỮ LIỆU
 
 * [15. ĐỒNG BỘ HÓA DỮ LIỆU](dong-bo-hoa-du-lieu/dong-bo-hoa-du-lieu.md)
+
+## HỖ TRỢ
+
+* [Hỗ trợ liên hệ](ho-tro-lien-he.md)
